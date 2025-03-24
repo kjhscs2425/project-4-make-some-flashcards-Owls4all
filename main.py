@@ -37,7 +37,7 @@ Times correct: {self.data["times asked"]-self.data["times wrong"]}
 Times incorrect: {self.data["times wrong"]}
 Accuracy: {self.data["accuracy"]}
 {"="*24}
-'''
+#'''
         print(statsToShow)
 user = ask("User name?")
 '''
@@ -61,11 +61,12 @@ for card in shuffle(cards):
 outputFile = open(f"{user}.txt","w")
 my_data_string = ''
 for q in questionList:
-    my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###"
+    print(q.showStats())
+    my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
 outputFile.write(my_data_string)
-'''
+#'''
 
-#'''    
+'''    
 addingQuestions = True
 my_data_string = ''
 while addingQuestions:
@@ -73,11 +74,11 @@ while addingQuestions:
     for key in ["question","answer","accuracy","times to show","times asked","times wrong"]:
         data[key] = ask(key)
     stringVersion = (dict_to_str(data,"|||","<<>>"))
-    my_data_string += f"{stringVersion}###"
+    my_data_string += f"{stringVersion}###\n"
     keepGoing = ask("Keep going?")
     if keepGoing not in YesList:
         addingQuestions = False
         outputFile = open("default.txt","w")
         outputFile.writelines(my_data_string)
         
-#'''
+'''

@@ -1,0 +1,1 @@
+question<<>>How many floors are in the mines?|||answer<<>>100|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
