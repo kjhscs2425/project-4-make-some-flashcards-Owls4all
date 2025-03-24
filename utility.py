@@ -1,5 +1,6 @@
 
 from math import *
+import random as r
 YesList = ['y','Y','Yes','yes','true','True','yeah'] #used with searchList to check for affirmative inputs
 NoList = ['N','n','No','no','false','False','nah'] #used with searchList to check for non-affirmative inputs (im blanking on the word, ok)
 def makeDegrees(angle):
@@ -67,3 +68,11 @@ def dict_to_str(dictionary,outer,inner):
     workingStr = ''
     for key in dictionary.keys():
         workingStr += f'{key}{inner}{dictionary[key]}{outer}'
+def shuffle(List:list):
+    foo = (len(List))
+    newList = []
+    for i in range(1,foo+1):
+        index = r.randint(0,foo-i)
+        newList.append(List(index))
+        List.__delitem__(index)
+
