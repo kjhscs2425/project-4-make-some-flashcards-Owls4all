@@ -40,11 +40,11 @@ Accuracy: {self.data["accuracy"]}
 '''
         print(statsToShow)
 user = ask("User name?")
-using = True
-if False:#[check for user file]
-    source_file = open(f"{user}.txt","r").read
+'''
+if False: #[check for user file]
+    source_file = open(f"{user}.txt","r").read()
 else:
-    source_file = open("default.txt","r")
+    source_file = open("default.txt","r").read()
     for q in source_file.split("###"):
         questionList.append[quest(q)]
 cards = []
@@ -54,8 +54,30 @@ for q in questionList:
         cards.append(indexInList(q,questionList))
 
 
-while using:
-    for card in shuffle(cards):
-        chosenCard = cards.pop()
-        questionList[chosenCard].askUser()
 
+for card in shuffle(cards):
+    chosenCard = cards.pop()
+    questionList[chosenCard].askUser()
+outputFile = open(f"{user}.txt","w")
+my_data_string = ''
+for q in questionList:
+    my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###"
+outputFile.write(my_data_string)
+'''
+
+#'''    
+addingQuestions = True
+my_data_string = ''
+while addingQuestions:
+    data = {}
+    for key in ["question","answer","accuracy","times to show","times asked","times wrong"]:
+        data[key] = ask(key)
+    stringVersion = (dict_to_str(data,"|||","<<>>"))
+    my_data_string += f"{stringVersion}###"
+    keepGoing = ask("Keep going?")
+    if keepGoing not in YesList:
+        addingQuestions = False
+        outputFile = open("default.txt","w")
+        outputFile.writelines(my_data_string)
+        
+#'''
