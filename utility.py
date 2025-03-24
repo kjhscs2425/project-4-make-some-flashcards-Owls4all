@@ -63,7 +63,8 @@ def str_to_dict(string,outer,inner):
     workingDict = {}
     for pair in string.split(outer):
         things =  pair.split(inner)
-        workingDict[things[0]]=things[1]
+        if len(things)==2:
+            workingDict[things[0]]=things[1]
 def dict_to_str(dictionary,outer,inner):
     workingStr = ''
     for key in dictionary.keys():
