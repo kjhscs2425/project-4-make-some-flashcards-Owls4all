@@ -2,8 +2,8 @@
 from utility import *
 questionList = []
 class quest:
-    def __init__(self,string):
-        self.data = str_to_dict(string,"|||","<<>>")
+    def __init__(self,dataDict:dict):
+        self.data = dataDict
         for key in self.data.keys():
             if key in ["times wrong","times asked","times to show"]:
                 self.data[key] = int(self.data[key])
@@ -46,7 +46,7 @@ if False: #[check for user file]
 else:
     source_file = open("default.txt","r").read()
     for q in source_file.split("###"):
-        questionList.append[quest(q)]
+        questionList.append[quest(str_to_dict(q,"|||","<<>>"))]
 cards = []
 for q in questionList:
     foo = q.data["times to show"]
