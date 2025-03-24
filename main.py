@@ -37,3 +37,5 @@ Times incorrect: {self.data["times wrong"]}
 Accuracy: {self.data["accuracy"]}
 {"="*24}
 '''
+        print(statsToShow)
+
