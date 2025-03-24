@@ -4,7 +4,7 @@ question<<>>There is a treasure room every ___ floors in skull caverns?|||answer
 question<<>>It takes ___ g to complete all the vault bundles in the community center?|||answer<<>>47500|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
 question<<>>A barn costs ___ g to build?|||answer<<>>6000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
 question<<>>A coop costs ___ g to build?|||answer<<>>4000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>It costs ___ g tp fully upgrage the farmhouse?|||answer<<>>175000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
+question<<>>It costs ___ g to fully upgrage the farmhouse?|||answer<<>>175000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
 question<<>>[Q]|||answer<<>>[A]|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
 question<<>>[Q]|||answer<<>>[A]|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
 question<<>>[Q]|||answer<<>>[A]|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
