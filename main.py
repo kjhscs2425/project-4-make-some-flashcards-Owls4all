@@ -37,10 +37,10 @@ Times correct: {self.data["times asked"]-self.data["times wrong"]}
 Times incorrect: {self.data["times wrong"]}
 Accuracy: {self.data["accuracy"]}
 {"="*24}
-#'''
+'''
         print(statsToShow)
 user = ask("User name?")
-'''
+#'''
 if False: #[check for user file]
     source_file = open(f"{user}.txt","r").read()
 else:
