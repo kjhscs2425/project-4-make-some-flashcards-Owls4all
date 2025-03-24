@@ -1,1 +1,3 @@
-question<<>>How many floors are in the mines?|||answer<<>>100|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
+question<<>>How many floors are in the mines?|||answer<<>>120|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
+question<<>>How many floors are in the volcano dungeon?|||answer<<>>10|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
+question<<>>There is a treasure room every ___ floors in skull caverns?|||answer<<>>100|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
