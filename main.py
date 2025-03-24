@@ -1,5 +1,6 @@
 # Write your code here
 from utility import *
+questionList = []
 class quest:
     def __init__(self,string):
         self.data = str_to_dict(string,"|||","<<>>")
@@ -38,4 +39,23 @@ Accuracy: {self.data["accuracy"]}
 {"="*24}
 '''
         print(statsToShow)
+user = ask("User name?")
+using = True
+if False:#[check for user file]
+    source_file = open(f"{user}.txt","r").read
+else:
+    source_file = open("default.txt","r")
+    for q in source_file.split("###"):
+        questionList.append[quest(q)]
+cards = []
+for q in questionList:
+    foo = q.data["times to show"]
+    for i in range(foo):
+        cards.append(indexInList(q,questionList))
+
+
+while using:
+    for card in shuffle(cards):
+        chosenCard = cards.pop()
+        questionList[chosenCard].askUser()
 
