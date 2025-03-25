@@ -5,7 +5,6 @@ questionList = []
 class quest:
     def __init__(self,dataDict:dict):
         self.data = dataDict
-        print(self.data)
         for key in self.data.keys():
             if key in ["wrong","asked","show"]:
                 self.data[key] = int(self.data[key])
@@ -53,14 +52,18 @@ else:
         questionList.append(newQuest)
 cards = []
 for q in questionList:
+    if "show" not in q.data.keys():
+        q.data["show"]=3
     foo = q.data["show"]
     for i in range(foo):
         cards.append(indexInList(q,questionList))
+    
 
 
 
-for card in shuffle(cards):
-    chosenCard = cards.pop()
+deck = shuffle(cards)
+for card in deck:
+    chosenCard = deck.pop()
     questionList[chosenCard].askUser()
 outputFile = open(f"{user}.txt","w")
 my_data_string = ''
