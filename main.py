@@ -42,9 +42,11 @@ class quest:
             return
         for stat in ["question"]:
             if stat not in self.data.keys():
-                print(f"No {stat} stat!")
-                print(dict_to_str(self.data,"|||","<<>>"))
-                return
+                #print(f"No {stat} stat!")
+                #print(dict_to_str(self.data,"|||","<<>>"))
+                global questionList
+                questionList.__delitem__(indexInList(self,questionList))
+                return ' '
         statsToShow = f'''{"="*24}
 {self.data["question"]}
 {self.data["answer"]}
