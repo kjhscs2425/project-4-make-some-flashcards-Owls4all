@@ -4,6 +4,7 @@ questionList = []
 class quest:
     def __init__(self,dataDict:dict):
         self.data = dataDict
+        print(self.data)
         for key in ["times wrong","times asked","times to show","accuracy"]:
             if key in ["times wrong","times asked","times to show"]:
                 self.data[key] = int(self.data[key])
