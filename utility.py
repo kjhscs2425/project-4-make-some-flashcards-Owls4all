@@ -65,10 +65,12 @@ def str_to_dict(string,outer,inner):
         things =  pair.split(inner)
         if len(things)==2:
             workingDict[things[0]]=things[1]
+    return workingDict
 def dict_to_str(dictionary,outer,inner):
     workingStr = ''
     for key in dictionary.keys():
         workingStr += f'{key}{inner}{dictionary[key]}{outer}'
+    return workingStr
 def shuffle(List:list):
     foo = (len(List))
     newList = []

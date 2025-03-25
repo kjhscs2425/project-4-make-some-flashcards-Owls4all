@@ -47,7 +47,9 @@ if False: #[check for user file]
 else:
     source_file = open("default.txt","r").read()
     for q in source_file.split("###"):
-        questionList.append[quest(str_to_dict(q,"|||","<<>>"))]
+        newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
+        print(type(newQuest))
+        questionList.append(newQuest)
 cards = []
 for q in questionList:
     foo = q.data["times to show"]
