@@ -43,7 +43,7 @@ class quest:
         for stat in ["question"]:
             if stat not in self.data.keys():
                 print(f"No {stat} stat!")
-                print(dict_to_str(self.data))
+                print(dict_to_str(self.data,"|||","<<>>"))
                 return
         statsToShow = f'''{"="*24}
 {self.data["question"]}
@@ -55,7 +55,7 @@ Times incorrect: {self.data["wrong"]}
 Accuracy: {self.data["accuracy"]}
 {"="*24}
 '''
-        print(statsToShow)
+        return(statsToShow)
 
 user = ask("User name?")
 mode = ask("run normally or add questions?")
