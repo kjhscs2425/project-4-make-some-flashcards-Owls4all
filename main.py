@@ -51,53 +51,56 @@ Accuracy: {self.data["accuracy"]}
 {"="*24}
 '''
         print(statsToShow)
+
 user = ask("User name?")
-#'''
-if os.path.isfile("data.json"):
-    source_file = open(f"{user}.txt","r").read()
-else:
-    source_file = open("default.txt","r").read()
-    for q in source_file.split("###"):
-        newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
-        questionList.append(newQuest)
-cards = []
-for q in questionList:
-    if "show" not in q.data.keys():
-        q.data["show"]=3
-    elif type(q.data["show"]) != int:
-        q.data["show"]=int(q.data["show"])
-    foo = q.data["show"]
-    for i in range(foo):
-        cards.append(indexInList(q,questionList))
+mode = ask("run normally or add questions?")
+if mode == 'normal':
+
+    if os.path.isfile("data.json"):
+        source_file = open(f"{user}.txt","r").read()
+    else:
+        source_file = open("default.txt","r").read()
+        for q in source_file.split("###"):
+            newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
+            questionList.append(newQuest)
+    cards = []
+    for q in questionList:
+        if "show" not in q.data.keys():
+            q.data["show"]=3
+        elif type(q.data["show"]) != int:
+            q.data["show"]=int(q.data["show"])
+        foo = q.data["show"]
+        for i in range(foo):
+            cards.append(indexInList(q,questionList))
     
+    deck = shuffle(cards)
+    for card in deck:
+        chosenCard = deck.pop()
+        questionList[chosenCard].askUser()
+    outputFile = open(f"{user}.txt","w")
+    my_data_string = ''
+    for q in questionList:
+        print(q.showStats())
+        my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
+    outputFile.write(my_data_string)
 
-
-
-deck = shuffle(cards)
-for card in deck:
-    chosenCard = deck.pop()
-    questionList[chosenCard].askUser()
-outputFile = open(f"{user}.txt","w")
-my_data_string = ''
-for q in questionList:
-    print(q.showStats())
-    my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
-outputFile.write(my_data_string)
-#'''
-
-'''    
-addingQuestions = True
-my_data_string = ''
-while addingQuestions:
-    data = {}
-    for key in ["question","answer","accuracy","show","asked","wrong"]:
+elif mode == 'questions':
+    addingQuestions = True
+    my_data_string = ''
+    while addingQuestions:
+     data = {}
+     data["accuracy"]=0
+     data["show"]=3
+     data["asked"]=0
+     data["wrong"]=0
+     for key in ["question","answer"]:
         data[key] = ask(key)
-    stringVersion = (dict_to_str(data,"|||","<<>>"))
-    my_data_string += f"{stringVersion}###\n"
-    keepGoing = ask("Keep going?")
-    if keepGoing not in YesList:
+     stringVersion = (dict_to_str(data,"|||","<<>>"))
+     my_data_string += f"{stringVersion}###\n"
+     keepGoing = ask("Keep going?")
+     if keepGoing not in YesList:
         addingQuestions = False
+        existingQuestions = open("default.txt","r").read()
         outputFile = open("default.txt","w")
-        outputFile.writelines(my_data_string)
+        outputFile.writelines(existingQuestions+my_data_string)
         
-'''
