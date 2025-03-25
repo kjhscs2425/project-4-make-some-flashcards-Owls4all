@@ -5,17 +5,25 @@ questionList = []
 class quest:
     def __init__(self,dataDict:dict):
         self.data = dataDict
-        for key in self.data.keys():
-            if key in ["wrong","asked","show"]:
-                self.data[key] = int(self.data[key])
-            elif key == 'accuracy':
-                self.data[key] = float(self.data[key])
+        if type(self.data)==dict:
+            for key in self.data.keys():
+                if key in ["wrong","asked","show"]:
+                    self.data[key] = int(self.data[key])
+                elif key == 'accuracy':
+                    self.data[key] = float(self.data[key])
+        else:
+            print(f"self.data is a {type(self.data)}")
     def stringify(self):
         return dict_to_str(self.data,"|||","<<>>")
     def oneLessQuestion(self):
         if self.data["show"] >=2:
             self.data["show"] -=1
     def askUser(self):
+        if type(self.data) != dict:
+            print(f"self.data is a {type(self.data)}")
+            return
+        if "question" not in self.data.keys():
+            return
         response = ask(self.data["question"])
         self.data["asked"] +=1
         if response != self.data["answer"]:
