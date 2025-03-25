@@ -37,6 +37,9 @@ class quest:
         if self.data["accuracy"] > 0.9:
             self.oneLessQuestion()
     def showStats(self):
+        if type(self.data) != dict:
+            print(type(self.data))
+            return
         statsToShow = f'''{"="*24}
 {self.data["question"]}
 {self.data["answer"]}
@@ -61,6 +64,8 @@ cards = []
 for q in questionList:
     if "show" not in q.data.keys():
         q.data["show"]=3
+    elif type(q.data["show"]) != int:
+        q.data["show"]=int(q.data["show"])
     foo = q.data["show"]
     for i in range(foo):
         cards.append(indexInList(q,questionList))
