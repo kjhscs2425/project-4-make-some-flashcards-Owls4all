@@ -40,6 +40,11 @@ class quest:
         if type(self.data) != dict:
             print(type(self.data))
             return
+        for stat in ["question"]:
+            if stat not in self.data.keys():
+                print(f"No {stat} stat!")
+                print(dict_to_str(self.data))
+                return
         statsToShow = f'''{"="*24}
 {self.data["question"]}
 {self.data["answer"]}
@@ -64,7 +69,7 @@ if mode == 'normal':
             newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
             questionList.append(newQuest)
     cards = []
-    for q in questionList:
+    for q in questionList: #Fix this - it shows things the wrong number of times
         if "show" not in q.data.keys():
             q.data["show"]=3
         elif type(q.data["show"]) != int:
