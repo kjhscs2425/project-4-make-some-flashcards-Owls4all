@@ -89,14 +89,14 @@ elif mode == 'questions':
     my_data_string = ''
     while addingQuestions:
      data = {}
+     for key in ["question","answer"]:
+        data[key] = ask(key)
      data["accuracy"]=0
      data["show"]=3
      data["asked"]=0
      data["wrong"]=0
-     for key in ["question","answer"]:
-        data[key] = ask(key)
      stringVersion = (dict_to_str(data,"|||","<<>>"))
-     my_data_string += f"{stringVersion}###\n"
+     my_data_string += f"\n{stringVersion}###"
      keepGoing = ask("Keep going?")
      if keepGoing not in YesList:
         addingQuestions = False

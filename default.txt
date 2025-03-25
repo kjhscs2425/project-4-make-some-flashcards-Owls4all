@@ -20,3 +20,4 @@ question<<>>It costs ___ iridium bars to fix the boat?|||answer<<>>5|||accuracy<
 question<<>>It costs ___ hardwood to fix the boat?|||answer<<>>200|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
 question<<>>It costs ___ battery packs to fix the boat?|||answer<<>>5|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
 question<<>>A large stump gives ___ foraging xp?|||answer<<>>25|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>How long does a rare seed take to grow?|||answer<<>>24 days|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
