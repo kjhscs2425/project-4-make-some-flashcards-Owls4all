@@ -1,20 +1,20 @@
-question<<>>How many floors are in the mines?|||answer<<>>120|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>How many floors are in the volcano dungeon?|||answer<<>>10|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>There is a treasure room every ___ floors in skull caverns?|||answer<<>>100|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>It takes ___ g to complete all the vault bundles in the community center?|||answer<<>>47500|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>A barn costs ___ g to build?|||answer<<>>6000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>A coop costs ___ g to build?|||answer<<>>4000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>It costs ___ g to fully upgrage the farmhouse?|||answer<<>>175000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>It costs a total of ___ wood to build a fully upgraged coop?|||answer<<>>1200|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>It costs a total of ___ wood to build a fully upgraded barn?|||answer<<>>1350|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>It costs a total of ___ stone to build a fully upgraded coop?|||answer<<>>450|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>It costs a total of ___ stone to build a fully upgraded barn?|||answer<<>>650|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>A chicken costs ___?|||answer<<>>800|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>A cow costs ___?|||answer<<>>1500|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>A goat costs ___?|||answer<<>>4000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>A duck costs ___?|||answer<<>>1200|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>A rabbit costs ___?|||answer<<>>8000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>A sheep costs ___?|||answer<<>>8000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>A pig costs ___?|||answer<<>>16000|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>It costs ___ iridium bars to fix the boat?|||answer<<>>5|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
-question<<>>It costs ___ hardwood to fix the boat?|||answer<<>>200|||accuracy<<>>0|||times to show<<>>3|||times asked<<>>0|||times wrong<<>>0|||###
+question<<>>How many floors are in the mines?|||answer<<>>120|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>How many floors are in the volcano dungeon?|||answer<<>>10|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>There is a treasure room every ___ floors in skull caverns?|||answer<<>>100|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>It takes ___ g to complete all the vault bundles in the community center?|||answer<<>>47500|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A barn costs ___ g to build?|||answer<<>>6000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A coop costs ___ g to build?|||answer<<>>4000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>It costs ___ g to fully upgrage the farmhouse?|||answer<<>>175000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>It costs a total of ___ wood to build a fully upgraged coop?|||answer<<>>1200|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>It costs a total of ___ wood to build a fully upgraded barn?|||answer<<>>1350|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>It costs a total of ___ stone to build a fully upgraded coop?|||answer<<>>450|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>It costs a total of ___ stone to build a fully upgraded barn?|||answer<<>>650|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A chicken costs ___?|||answer<<>>800|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A cow costs ___?|||answer<<>>1500|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A goat costs ___?|||answer<<>>4000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A duck costs ___?|||answer<<>>1200|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A rabbit costs ___?|||answer<<>>8000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A sheep costs ___?|||answer<<>>8000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A pig costs ___?|||answer<<>>16000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>It costs ___ iridium bars to fix the boat?|||answer<<>>5|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>It costs ___ hardwood to fix the boat?|||answer<<>>200|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
