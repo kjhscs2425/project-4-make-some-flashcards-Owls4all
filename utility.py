@@ -76,6 +76,7 @@ def shuffle(List:list):
     newList = []
     for i in range(1,foo+1):
         index = r.randint(0,foo-i)
-        newList.append(List(index))
+        newList.append(List[index])
         List.__delitem__(index)
+    return newList
 
