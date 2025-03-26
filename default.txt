@@ -10,14 +10,14 @@ question<<>>It costs a total of ___ wood to build a fully upgraded barn?|||answe
 question<<>>It costs a total of ___ stone to build a fully upgraded coop?|||answer<<>>450|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
 question<<>>It costs a total of ___ stone to build a fully upgraded barn?|||answer<<>>650|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
 question<<>>A chicken costs ___?|||answer<<>>800|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
-question<<>>A cow costs ___?|||answer<<>>1500|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
-question<<>>A goat costs ___?|||answer<<>>4000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
-question<<>>A duck costs ___?|||answer<<>>1200|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
-question<<>>A rabbit costs ___?|||answer<<>>8000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
-question<<>>A sheep costs ___?|||answer<<>>8000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
-question<<>>A pig costs ___?|||answer<<>>16000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A cow costs ___ g ?|||answer<<>>1500|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A goat costs ___ g ?|||answer<<>>4000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A duck costs ___ g ?|||answer<<>>1200|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A rabbit costs ___ g ?|||answer<<>>8000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A sheep costs ___ g ?|||answer<<>>8000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>A pig costs ___ g ?|||answer<<>>16000|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
 question<<>>It costs ___ iridium bars to fix the boat?|||answer<<>>5|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
 question<<>>It costs ___ hardwood to fix the boat?|||answer<<>>200|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
 question<<>>It costs ___ battery packs to fix the boat?|||answer<<>>5|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
 question<<>>A large stump gives ___ foraging xp?|||answer<<>>25|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
-question<<>>How long does a rare seed take to grow?|||answer<<>>24 days|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
+question<<>>How many days does a rare seed take to grow?|||answer<<>>24|||accuracy<<>>0|||show<<>>3|||asked<<>>0|||wrong<<>>0|||###
