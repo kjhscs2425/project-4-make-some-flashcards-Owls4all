@@ -46,7 +46,7 @@ class quest:
                 #print(dict_to_str(self.data,"|||","<<>>"))
                 global questionList
                 questionList.__delitem__(indexInList(self,questionList))
-                return ' '
+                return ''
         statsToShow = f'''{"="*24}
 {self.data["question"]}
 {self.data["answer"]}
@@ -59,9 +59,9 @@ Accuracy: {self.data["accuracy"]}
 '''
         return(statsToShow)
 
-user = ask("User name?")
+user = ask("Username?")
 mode = ask("run normally or add questions?")
-if mode == 'normal':
+if mode == 'normal' or mode == 'normally':
 
     if os.path.isfile("data.json"):
         source_file = open(f"{user}.txt","r").read()
@@ -72,11 +72,15 @@ if mode == 'normal':
             questionList.append(newQuest)
     cards = []
     for q in questionList: #Fix this - it shows things the wrong number of times
-        if "show" not in q.data.keys():
-            q.data["show"]=3
-        elif type(q.data["show"]) != int:
-            q.data["show"]=int(q.data["show"])
-        foo = q.data["show"]
+        if type(q.data) != dict:
+            print(type(q.data))
+        elif "show" not in q.data.keys():
+                print("there is a bad question")
+                q.data["show"]=0
+        if q.data["show"] not in ["3",3]:
+            foo = int(q.data["show"])
+        else:
+            foo = 3
         for i in range(foo):
             cards.append(indexInList(q,questionList))
     
@@ -91,7 +95,7 @@ if mode == 'normal':
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
 
-elif mode == 'questions':
+elif 'question' in mode:
     addingQuestions = True
     my_data_string = ''
     while addingQuestions:
