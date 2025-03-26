@@ -81,7 +81,7 @@ if mode == 'normal' or mode == 'normally':
     for i in range(len(questionList)): 
         q=questionList[i]
         if type(q.data) != dict:
-            print("there is a bad question - figure it out")
+            #print("there is a bad question - figure it out")
             questionList.__delitem__(i)
         else:
             if "show" not in q.data.keys():
@@ -91,22 +91,22 @@ if mode == 'normal' or mode == 'normally':
             else:
                 show = q.data["show"]
                 if type(show) == int:
-                    print(f"{q.data["question"]} added to list")
+                    #print(f"{q.data["question"]} added to list")
                     for j in range(show):
                         cards.append(i)
                 else:
                     if show.isdigit():
-                        print(f"{q.data["question"]} added to list")
+                        #print(f"{q.data["question"]} added to list")
                         for j in range(int(show)):
                             cards.append(i)
                     else:
                         print("Something has gone direly wrong")
-    print(cards) 
+    #print(cards) 
     deck = shuffle(cards)
-    print(deck)
+    #print(deck)
     x = len(deck)
     for i in range(x):
-        print(f"\nQuestion {i}. ")
+        print(f"\nQuestion {i}. (out of {x})")
         chosenCard = deck.pop()
         questionList[chosenCard].askUser()
     outputFile = open(f"{user}.txt","w")
