@@ -26,10 +26,11 @@ class quest:
             return
         response = ask(self.data["question"])
         self.data["asked"] +=1
-        if response != self.data["answer"]:
+        correctOptions=[self.data["answer"],self.data["answer"]+self.data["units"]]
+        if response not in correctOptions:
             self.data["wrong"] +=1
             self.data["show"] +=1
-            print(f"Incorrect! The answer is {self.data["answer"]}.")
+            print(f"Incorrect! The answer is {self.data["answer"]}{self.data["units"]}.")
         else:
             print("Correct!")
         asked = self.data["asked"]
@@ -74,21 +75,29 @@ if mode == 'normal' or mode == 'normally':
             newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
             questionList.append(newQuest)
     cards = []
-    for q in questionList: #Fix this - it shows things the wrong number of times
+    for i in range(len(questionList)): #Fix this - it shows things the wrong number of times
+        q=questionList[i]
         if type(q.data) != dict:
-            print(type(q.data))
-        elif "show" not in q.data.keys():
-                print("there is a bad question")
-                q.data["show"]=0
-        if q.data["show"] not in ["3",3]:
-            foo = int(q.data["show"])
+            print("there is a bad question - figure it out")
+            questionList.__delitem__(i)
         else:
-            foo = 3
-        for i in range(foo):
-            cards.append(indexInList(q,questionList))
-    
+            if "show" not in q.data.keys():
+                for j in range(3):
+                    cards.append(i)
+            else:
+                show = q.data["show"]
+                if type(show) == int:
+                    for j in range(show):
+                        cards.append(i)
+                else:
+                    if show.isdigit():
+                        for j in range(int(show)):
+                            cards.append(i)
+
+    print(cards) 
     deck = shuffle(cards)
-    for card in deck:
+    print(deck)
+    for i in range(len(cards)):
         chosenCard = deck.pop()
         questionList[chosenCard].askUser()
     outputFile = open(f"{user}.txt","w")
@@ -103,7 +112,7 @@ elif 'question' in mode:
     my_data_string = ''
     while addingQuestions:
      data = {}
-     for key in ["question","answer"]:
+     for key in ["question","answer","units"]:
         data[key] = ask(key)
      data["accuracy"]=0
      data["show"]=3
