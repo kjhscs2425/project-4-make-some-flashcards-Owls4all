@@ -69,7 +69,7 @@ if user == 'default':
     if forReal in YesList:
         mode = 'question'
     else:
-        mode = None
+        mode = 'None'
         print("If you would like to corrupt the question source data, please edit the file directly.")
 else:
     mode = ask("run normally or add questions?")
