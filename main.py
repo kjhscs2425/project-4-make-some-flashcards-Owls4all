@@ -29,6 +29,9 @@ class quest:
         if response != self.data["answer"]:
             self.data["wrong"] +=1
             self.data["show"] +=1
+            print(f"Incorrect! The answer is {self.data["answer"]}.")
+        else:
+            print("Correct!")
         asked = self.data["asked"]
         wrong = self.data["wrong"]
         self.data["accuracy"] = (asked - wrong)/asked
