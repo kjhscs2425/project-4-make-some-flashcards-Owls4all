@@ -93,7 +93,8 @@ if mode == 'normal' or mode == 'normally':
                     if show.isdigit():
                         for j in range(int(show)):
                             cards.append(i)
-
+                    else:
+                        print("Something has gone direly wrong")
     print(cards) 
     deck = shuffle(cards)
     print(deck)
