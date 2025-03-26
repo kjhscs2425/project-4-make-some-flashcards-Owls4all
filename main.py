@@ -85,30 +85,34 @@ if mode == 'normal' or mode == 'normally':
             questionList.__delitem__(i)
         else:
             if "show" not in q.data.keys():
+                print("There's a question missing a show stat.")
                 for j in range(3):
                     cards.append(i)
             else:
                 show = q.data["show"]
                 if type(show) == int:
+                    print(f"{q.data["question"]} added to list")
                     for j in range(show):
                         cards.append(i)
                 else:
                     if show.isdigit():
+                        print(f"{q.data["question"]} added to list")
                         for j in range(int(show)):
                             cards.append(i)
                     else:
                         print("Something has gone direly wrong")
-    #print(cards) 
+    print(cards) 
     deck = shuffle(cards)
-    #print(deck)
-    for i in range(len(cards)):
-        print(i)
+    print(deck)
+    x = len(deck)
+    for i in range(x):
+        print(f"\nQuestion {i}. ")
         chosenCard = deck.pop()
         questionList[chosenCard].askUser()
     outputFile = open(f"{user}.txt","w")
     my_data_string = ''
     for q in questionList:
-        #print(q.showStats())
+        print(q.showStats())
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
 
