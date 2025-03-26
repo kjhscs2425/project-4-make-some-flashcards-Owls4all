@@ -53,7 +53,7 @@ class quest:
                 return ''
         statsToShow = f'''{"="*24}
 {self.data["question"]}
-{self.data["answer"]}
+{self.data["answer"]} {self.data["units"]}
 
 Times asked: {self.data["asked"]}
 Times correct: {self.data["asked"]-self.data["wrong"]}
@@ -66,16 +66,19 @@ Accuracy: {self.data["accuracy"]}
 user = ask("Username?")
 mode = ask("run normally or add questions?")
 if mode == 'normal' or mode == 'normally':
-
-    if os.path.isfile("data.json"):
+    print("Normal mode selected")
+    if os.path.isfile(f"{user}.txt"):
+        print(f"User file for {user} exists: loading stats")
         source_file = open(f"{user}.txt","r").read()
     else:
+        print(f"No file found for {user}. Using default file")
         source_file = open("default.txt","r").read()
-        for q in source_file.split("###"):
+    for q in source_file.split("###"):
             newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
-            questionList.append(newQuest)
+            if "question" in newQuest.data.keys():
+                questionList.append(newQuest)
     cards = []
-    for i in range(len(questionList)): #Fix this - it shows things the wrong number of times
+    for i in range(len(questionList)): 
         q=questionList[i]
         if type(q.data) != dict:
             print("there is a bad question - figure it out")
@@ -95,16 +98,17 @@ if mode == 'normal' or mode == 'normally':
                             cards.append(i)
                     else:
                         print("Something has gone direly wrong")
-    print(cards) 
+    #print(cards) 
     deck = shuffle(cards)
-    print(deck)
+    #print(deck)
     for i in range(len(cards)):
+        print(i)
         chosenCard = deck.pop()
         questionList[chosenCard].askUser()
     outputFile = open(f"{user}.txt","w")
     my_data_string = ''
     for q in questionList:
-        print(q.showStats())
+        #print(q.showStats())
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
 
