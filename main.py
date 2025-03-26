@@ -132,7 +132,7 @@ elif 'question' in mode:
      keepGoing = ask("Keep going?")
      if keepGoing not in YesList:
         addingQuestions = False
-        existingQuestions = open("default.txt","r").read()
-        outputFile = open("default.txt","w")
+        existingQuestions = open(f"{user}.txt","r").read()
+        outputFile = open(f"{user}.txt","w")
         outputFile.writelines(existingQuestions+my_data_string)
         
