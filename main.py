@@ -64,7 +64,15 @@ Accuracy: {self.data["accuracy"]}
         return(statsToShow)
 
 user = ask("Username?")
-mode = ask("run normally or add questions?")
+if user == 'default':
+    forReal = ask("So you'll be adding questions then?")
+    if forReal in YesList:
+        mode = 'question'
+    else:
+        mode = None
+        print("If you would like to corrupt the question source data, please edit the file directly.")
+else:
+    mode = ask("run normally or add questions?")
 if mode == 'normal' or mode == 'normally':
     print("Normal mode selected")
     if os.path.isfile(f"{user}.txt"):
