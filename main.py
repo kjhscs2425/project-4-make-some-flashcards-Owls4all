@@ -149,4 +149,3 @@ elif 'question' in mode:
             existingQuestions = ''
         outputFile = open(f"{user}.txt","w")
         outputFile.writelines(existingQuestions+my_data_string)
-        
