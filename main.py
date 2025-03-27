@@ -110,7 +110,7 @@ if mode == 'normal' or mode == 'normally':
                     else:
                         print("Something has gone direly wrong")
     #print(cards) 
-    deck = shuffle(cards)
+    deck = shuffle(cards,3)
     #print(deck)
     x = len(deck)
     for i in range(x):
