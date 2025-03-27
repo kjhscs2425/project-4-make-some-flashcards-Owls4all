@@ -64,7 +64,7 @@ Accuracy: {self.data["accuracy"]}
         return(statsToShow)
 
 user = ask("Username?")
-if user == 'default':
+if 'default' in user:
     forReal = ask("So you'll be adding questions then?")
     if forReal in YesList:
         mode = 'question'
@@ -79,8 +79,11 @@ if mode == 'normal' or mode == 'normally':
         print(f"User file for {user} exists: loading stats")
         source_file = open(f"{user}.txt","r").read()
     else:
-        print(f"No file found for {user}. Using default file")
-        source_file = open("default.txt","r").read()
+        print(f"No file found for {user}.")
+        choice = ask("Which default file to open?")
+        if choice == '0' or choice not in ["0","1"]:
+            choice = ''
+        source_file = open(f"default{choice}.txt","r").read()
     for q in source_file.split("###"):
             newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
             if "question" in newQuest.data.keys():
