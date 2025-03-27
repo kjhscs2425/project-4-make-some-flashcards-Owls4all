@@ -94,7 +94,7 @@ if mode == 'normal' or mode == 'normally':
         else:
             if "show" not in q.data.keys():
                 print("There's a question missing a show stat.")
-                for j in range(3):
+                for j in range(2):
                     cards.append(i)
             else:
                 show = q.data["show"]
@@ -132,7 +132,7 @@ elif 'question' in mode:
      for key in ["question","answer","units"]:
         data[key] = ask(key)
      data["accuracy"]=0
-     data["show"]=3
+     data["show"]=2
      data["asked"]=0
      data["wrong"]=0
      stringVersion = (dict_to_str(data,"|||","<<>>"))
