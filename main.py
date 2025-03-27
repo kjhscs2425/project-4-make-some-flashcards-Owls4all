@@ -133,7 +133,10 @@ elif 'question' in mode:
     while addingQuestions:
      data = {}
      for key in ["question","answer","units"]:
-        data[key] = ask(key)
+        qToAsk = key+":"
+        if key == "units":
+            qToAsk += '\n(Add a space if there should be a space between the answer and units)'
+        data[key] = ask(qToAsk)
      data["accuracy"]=0
      data["show"]=2
      data["asked"]=0
