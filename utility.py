@@ -72,11 +72,25 @@ def dict_to_str(dictionary,outer,inner):
         workingStr += f'{key}{inner}{dictionary[key]}{outer}'
     return workingStr
 def shuffle(List:list):
+    attempt = 0
     foo = (len(List))
     newList = []
     for i in range(1,foo+1):
         index = r.randint(0,foo-i)
+        if newList[-1] != List[index]:
+            attempt = 0
+            newList.append(List[index])
+            List.__delitem__(index)
+        while not attempt >2:
+            index = r.randint(0,foo-i)
+            if newList[-1] == List[index]:
+                attempt +=1
+            else:
+                attempt = 5
         newList.append(List[index])
         List.__delitem__(index)
+        attempt = 0
+        
+
     return newList
 
