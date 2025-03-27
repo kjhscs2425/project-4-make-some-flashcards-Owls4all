@@ -81,24 +81,33 @@ def shuffle(List:list,tries=0):
             attempt = 0
             newList.append(List[index])
             List.__delitem__(index)
-        elif index > len(List):
-            print("Oh ****")
+        elif index >= len(List):
+            if len(List)!=0:
+                index = index%len(List)
+            else:
+                print("List is length 0!")
         elif newList[-1] != List[index]:
             attempt = 0
             newList.append(List[index])
             List.__delitem__(index)
         while not attempt >tries-1:
             index = r.randint(0,foo-i)
-            if index > len(List):
-                print("Oh ****")
-                
+            if index >= len(List):
+                if len(List)!=0:
+                    index = index%len(List)
+                else:
+                    print("List is length 0!")
+                    return newList
             elif newList[-1] == List[index]:
                 attempt +=1
             else:
                 attempt = tries+5
-        newList.append(List[index])
-        List.__delitem__(index)
-        attempt = 0
+        if len(List) >0:
+            newList.append(List[index])
+            List.__delitem__(index)
+            attempt = 0
+        else:
+            return newList
         
 
     return newList
