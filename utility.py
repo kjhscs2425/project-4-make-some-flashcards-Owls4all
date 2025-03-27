@@ -71,7 +71,7 @@ def dict_to_str(dictionary,outer,inner):
     for key in dictionary.keys():
         workingStr += f'{key}{inner}{dictionary[key]}{outer}'
     return workingStr
-def shuffle(List:list,tries=3):
+def shuffle(List:list,tries=0):
     attempt = 0
     foo = (len(List))
     newList = []
