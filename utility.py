@@ -89,7 +89,10 @@ def shuffle(List:list,tries=0):
             List.__delitem__(index)
         while not attempt >tries-1:
             index = r.randint(0,foo-i)
-            if newList[-1] == List[index]:
+            if index > len(List):
+                print("Oh ****")
+                
+            elif newList[-1] == List[index]:
                 attempt +=1
             else:
                 attempt = tries+5
