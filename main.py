@@ -53,7 +53,7 @@ class quest:
                 return ''
         statsToShow = f'''{"="*24}
 {self.data["question"]}
-{self.data["answer"]} {self.data["units"]}
+{self.data["answer"]}{self.data["units"]}
 
 Times asked: {self.data["asked"]}
 Times correct: {self.data["asked"]-self.data["wrong"]}
