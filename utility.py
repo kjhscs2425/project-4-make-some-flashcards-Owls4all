@@ -77,7 +77,11 @@ def shuffle(List:list,tries=0):
     newList = []
     for i in range(1,foo+1):
         index = r.randint(0,foo-i)
-        if newList[-1] != List[index]:
+        if len(newList)==0:
+            attempt = 0
+            newList.append(List[index])
+            List.__delitem__(index)
+        elif newList[-1] != List[index]:
             attempt = 0
             newList.append(List[index])
             List.__delitem__(index)
