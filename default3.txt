@@ -7,3 +7,6 @@ question<<>>How much energy does the fishing pole cost at skill level 0?|||answe
 question<<>>A diamond node gives __ mining xp?|||answer<<>>150|||units<<>> mining xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>mining a dark gray rock in the mines gives __ xp? (if no coal is dropped)|||answer<<>>3|||units<<>> xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>An iridium node gives __ mining xp?|||answer<<>>50|||units<<>> mining xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How much xp does reading a skill book give?|||answer<<>>250|||units<<>> xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Harvesting a potato gives __ farming xp?|||answer<<>>14|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Harvesting a starfruit gives __ farming xp?|||answer<<>>43|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
