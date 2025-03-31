@@ -16,7 +16,5 @@ question<<>>A pig costs ___ g ?|||answer<<>>16000|||units<<>>g|||accuracy<<>>1.0
 question<<>>It costs ___ iridium bars to fix the boat?|||answer<<>>5|||units<<>> iridium bars|||accuracy<<>>1.0|||show<<>>1|||asked<<>>4|||wrong<<>>0|||order<<>>√ √ √ √|||###
 question<<>>It costs ___ hardwood to fix the boat?|||answer<<>>200|||units<<>> hardwood|||accuracy<<>>1.0|||show<<>>1|||asked<<>>4|||wrong<<>>0|||order<<>>√ √ √ √|||###
 question<<>>It costs ___ battery packs to fix the boat?|||answer<<>>5|||units<<>> battery packs|||accuracy<<>>1.0|||show<<>>1|||asked<<>>4|||wrong<<>>0|||order<<>>√ √ √ √||###
-question<<>>A large stump gives ___ foraging xp?|||answer<<>>25|||units<<>> foraging xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>4|||wrong<<>>0|||order<<>>√ √ √ √|||###
-question<<>>How many days does a rare seed take to grow?|||answer<<>>24|||units<<>> days|||accuracy<<>>1.0|||show<<>>1|||asked<<>>4|||wrong<<>>0|||order<<>>√ √ √ √|||###
-question<<>>How expensive is "The way of the wind" part 1?|||answer<<>>15000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How expensive is "The way of the wind" part 1?|||answer<<>>15000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>√ √ √ √ |||###
 question<<>>How expensive is "The way of the wind" part 2?|||answer<<>>35000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
