@@ -10,3 +10,5 @@ question<<>>An iridium node gives __ mining xp?|||answer<<>>50|||units<<>> minin
 question<<>>How much xp does reading a skill book give?|||answer<<>>250|||units<<>> xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>Harvesting a potato gives __ farming xp?|||answer<<>>14|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>Harvesting a starfruit gives __ farming xp?|||answer<<>>43|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Getting a perfect catch multiplies the xp gain by __?|||answer<<>>2.4|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Harvesting a powdermelon gives __ farming xp?|||answer<<>>12|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
