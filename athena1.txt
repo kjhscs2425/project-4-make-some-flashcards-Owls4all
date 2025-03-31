@@ -1,0 +1,14 @@
+question<<>>How many dust sprites is the monster slayer goal?|||answer<<>>500|||units<<>> dust sprites|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many monsters (and what kind) must you slay for the vampire ring?|||answer<<>>200|||units<<>> bats|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many slimes for the monster slayer goal?|||answer<<>>1000|||units<<>> slimes|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many rock crabs for the monster slayer goal?|||answer<<>>60|||units<<>> rock crabs|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many void spirits for the monster slayer goal?|||answer<<>>150|||units<<>> void spirits|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many pepper rex for the monster slayer goal?|||answer<<>>50|||units<<>> pepper rex|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many duggys for the monster slayer goal?|||answer<<>>30|||units<<>> duggys|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many serpents for the monster slayer goal?|||answer<<>>250|||units<<>> serpents|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many floors are in the mines?|||answer<<>>120|||units<<>> floors|||accuracy<<>>1.0|||show<<>>1|||asked<<>>6|||wrong<<>>0|||order<<>>√ √ √ √ √ √ |||###
+question<<>>How many floors are in the volcano dungeon?|||answer<<>>10|||units<<>> floors|||accuracy<<>>1.0|||show<<>>1|||asked<<>>6|||wrong<<>>0|||order<<>>√ √ √ √ √ √ |||###
+question<<>>There is a treasure room every ___ floors in skull caverns?|||answer<<>>100|||units<<>> floors|||accuracy<<>>1.0|||show<<>>1|||asked<<>>6|||wrong<<>>0|||order<<>>√ √ √ √ √ √ |||###
+question<<>>How many magma sprites must you slay for Marlon's phone number?|||answer<<>>150|||units<<>> magma sprites|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many skeletons must you slay for the monster slayer goal?|||answer<<>>50|||units<<>> skeletons|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many cave insects must you slay for the monster slayer goal?|||answer<<>>80|||units<<>> cave insects|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
