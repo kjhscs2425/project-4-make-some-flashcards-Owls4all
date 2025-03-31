@@ -135,7 +135,7 @@ if mode == 'normal' or mode == 'normally':
     #print(deck)
     x = len(deck)
     for i in range(x):
-        print(f"\nQuestion {i}. (out of {x})")
+        print(f"\nQuestion {i+1}. (out of {x})")
         chosenCard = deck.pop()
         questionList[chosenCard].askUser()
     Tfinal = time.time()
