@@ -31,7 +31,7 @@ class quest:
             return
         if "question" not in self.data.keys():
             return
-        response = ask(self.data["question"])
+        response = ask(self.data["question"]).lower()
         self.data["asked"] +=1
         thisRunData["asked"]+=1
         correctOptions=[self.data["answer"],self.data["answer"]+self.data["units"]]
