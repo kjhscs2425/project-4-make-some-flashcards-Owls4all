@@ -121,8 +121,8 @@ def makeNiceTime(seconds):
         if hours > 24:
             days = hours // 24
             hours = hours % 24
-            return f"{days} days, {hours} hours, {minutes} minutes, and {seconds} seconds."
+            return f"{days} days, {hours} hours, {minutes} minutes, and {ceil(seconds)} seconds."
         else:
-            return f"{hours} hours, {minutes} minutes, and {seconds} seconds."
+            return f"{hours} hours, {minutes} minutes, and {ceil(seconds)} seconds."
     else:
-        return f"{minutes} minutes and {seconds} seconds."
+        return f"{minutes} minutes and {ceil(seconds)} seconds."
