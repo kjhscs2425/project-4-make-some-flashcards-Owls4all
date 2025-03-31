@@ -4,3 +4,6 @@ question<<>>The weekly gift limit resets on which day?|||answer<<>>sun|||units<<
 question<<>>Special orders quests reset on which day?|||answer<<>>mon|||units<<>>day|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How many days are in a season?|||answer<<>>28|||units<<>> days|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How many days per season does the bookseller visit?|||answer<<>>2|||units<<>> days|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many days between ancient fruit harvests?|||answer<<>>7|||units<<>> days|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>When is Krobus's birthday?|||answer<<>>winter 1|||units<<>>st|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Pierre's store is closed on which day of the week?|||answer<<>>wed|||units<<>>nesday|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
