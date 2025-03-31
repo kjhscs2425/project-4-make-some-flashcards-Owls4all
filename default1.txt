@@ -1,7 +1,7 @@
 
-question<<>>How many days per season does the bookseller visit?|||answer<<>>2|||units<<>> days|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||###
-question<<>>How expensive is "The way of the wind" part 1?|||answer<<>>15000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||###
-question<<>>How many dust sprites is the monster slayer goal?|||answer<<>>500|||units<<>> dust sprites|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||###
-question<<>>How many days are in a season?|||answer<<>>28|||units<<>> days|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||###
-question<<>>The weekly gift limit resets on which day?|||answer<<>>sun|||units<<>>day|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||###
-question<<>>Special orders quests reset on which day?|||answer<<>>mon|||units<<>>day|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||###
+question<<>>How many days per season does the bookseller visit?|||answer<<>>2|||units<<>> days|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How expensive is "The way of the wind" part 1?|||answer<<>>15000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many dust sprites is the monster slayer goal?|||answer<<>>500|||units<<>> dust sprites|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many days are in a season?|||answer<<>>28|||units<<>> days|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>The weekly gift limit resets on which day?|||answer<<>>sun|||units<<>>day|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Special orders quests reset on which day?|||answer<<>>mon|||units<<>>day|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
