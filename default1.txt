@@ -5,3 +5,9 @@ question<<>>How many days are in a season?|||answer<<>>28|||units<<>> days|||acc
 question<<>>The weekly gift limit resets on which day?|||answer<<>>sun|||units<<>>day|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>Special orders quests reset on which day?|||answer<<>>mon|||units<<>>day|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How many monsters must you slay for the vampire ring?|||answer<<>>200|||units<<>> bats|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many slimes for the monster slayer goal?|||answer<<>>1000|||units<<>> slimes|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many rock crabs for the monster slayer goal?|||answer<<>>60|||units<<>> rock crabs|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many void spirits for the monster slayer goal?|||answer<<>>150|||units<<>> void spirits|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many pepper rex for the monster slayer goal?|||answer<<>>50|||units<<>> pepper rex|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many duggys for the monster slayer goal?|||answer<<>>30|||units<<>> duggys|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many serpents for the monster slayer goal?|||answer<<>>250|||units<<>> serpents|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
