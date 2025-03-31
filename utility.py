@@ -85,7 +85,8 @@ def shuffle(List:list,tries=0):
             if len(List)!=0:
                 index = index%len(List)
             else:
-                print("List is length 0!")
+                pass
+                #print("List is length 0!")
         elif newList[-1] != List[index]:
             attempt = 0
             newList.append(List[index])
@@ -96,7 +97,7 @@ def shuffle(List:list,tries=0):
                 if len(List)!=0:
                     index = index%len(List)
                 else:
-                    print("List is length 0!")
+                    #print("List is length 0!")
                     return newList
             elif newList[-1] == List[index]:
                 attempt +=1
