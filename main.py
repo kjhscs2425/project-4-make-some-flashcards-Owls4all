@@ -1,7 +1,14 @@
 # Write your code here
 import os
+import time
 from utility import *
 questionList = []
+thisRunData = {
+    "asked":0,
+    "wrong":0,
+    "accuracy":0,
+    "order":0
+}
 class quest:
     def __init__(self,dataDict:dict):
         self.data = dataDict
@@ -26,18 +33,25 @@ class quest:
             return
         response = ask(self.data["question"])
         self.data["asked"] +=1
+        thisRunData["asked"]+=1
         correctOptions=[self.data["answer"],self.data["answer"]+self.data["units"]]
         if response not in correctOptions:
             self.data["wrong"] +=1
+            thisRunData["wrong"]+=1
             self.data["show"] +=1
             print(f"Incorrect! The answer is {self.data["answer"]}{self.data["units"]}.")
             self.data["order"]+='x '
+            thisRunData["order"]+='x '
         else:
             print("Correct!")
             self.data["order"]+='√ '
+            thisRunData["order"]+='√ '
         asked = self.data["asked"]
+        thisRunAsked = thisRunData["asked"]
         wrong = self.data["wrong"]
+        thisRunWrong = thisRunData["wrong"]
         self.data["accuracy"] = (asked - wrong)/asked
+        thisRunData["accuracy"] = (thisRunAsked-thisRunWrong)/(thisRunAsked)
         if self.data["accuracy"] > 0.75:            
             self.oneLessQuestion()
         if self.data["accuracy"] > 0.9:
@@ -78,6 +92,7 @@ else:
     mode = ask("run normally or add questions?")
 if mode == 'normal' or mode == 'normally':
     print("Normal mode selected")
+    Tinitial = time.time()
     if os.path.isfile(f"{user}.txt"):
         print(f"User file for {user} exists: loading stats")
         source_file = open(f"{user}.txt","r").read()
@@ -123,13 +138,24 @@ if mode == 'normal' or mode == 'normally':
         print(f"\nQuestion {i}. (out of {x})")
         chosenCard = deck.pop()
         questionList[chosenCard].askUser()
+    Tfinal = time.time()
     outputFile = open(f"{user}.txt","w")
     my_data_string = ''
+    thisRunStats = f'''{'='*24}
+Stats for this run
+{'-'*24}
+Time: {makeNiceTime(Tfinal-Tinitial)}
+Questions asked: {thisRunData["asked"]}
+Correct answers: {thisRunData["asked"]-thisRunData["wrong"]}
+Incorrect answers: {thisRunData["wrong"]}
+Accuracy: {thisRunData["accuracy"]}
+{'='*24}
+'''
     for q in questionList:
         print(q.showStats())
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
-
+    print()
 elif 'question' in mode:
     addingQuestions = True
     my_data_string = ''

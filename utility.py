@@ -111,4 +111,17 @@ def shuffle(List:list,tries=0):
         
 
     return newList
-
+def makeNiceTime(seconds):
+    minutes = seconds //60
+    seconds = seconds %60
+    if minutes >60:
+        hours = minutes // 60
+        minutes = minutes % 60
+        if hours > 24:
+            days = hours // 24
+            hours = hours % 24
+            return f"{days} days, {hours} hours, {minutes} minutes, and {seconds} seconds."
+        else:
+            return f"{hours} hours, {minutes} minutes, and {seconds} seconds."
+    else:
+        return f"{minutes} minutes and {seconds} seconds."
