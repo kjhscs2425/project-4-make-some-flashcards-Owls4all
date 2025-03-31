@@ -155,7 +155,7 @@ Accuracy: {thisRunData["accuracy"]}
         print(q.showStats())
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
-    print()
+    print(thisRunStats)
 elif 'question' in mode:
     addingQuestions = True
     my_data_string = ''
