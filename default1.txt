@@ -12,5 +12,5 @@ question<<>>How many pepper rex for the monster slayer goal?|||answer<<>>50|||un
 question<<>>How many duggys for the monster slayer goal?|||answer<<>>30|||units<<>> duggys|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How many serpents for the monster slayer goal?|||answer<<>>250|||units<<>> serpents|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How many floors are in the mines?|||answer<<>>120|||units<<>> floors|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
-question<<>>How many floors are in the volcano dungeon?|||answer<<>>10|||units<<>> floors|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||###
+question<<>>How many floors are in the volcano dungeon?|||answer<<>>10|||units<<>> floors|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>There is a treasure room every ___ floors in skull caverns?|||answer<<>>100|||units<<>> floors|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
