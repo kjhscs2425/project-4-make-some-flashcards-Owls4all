@@ -14,3 +14,7 @@ question<<>>Getting a perfect catch multiplies the xp gain by __?|||answer<<>>2.
 question<<>>Harvesting a powdermelon gives __ farming xp?|||answer<<>>12|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How much xp does chopping down a tree give? (not including the stump)|||answer<<>>14|||units<<>> xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How much xp for digging up an artifact spot?|||answer<<>>15|||units<<>> xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Petting a farm animal gives __ farming xp?|||answer<<>>5|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>picking up eggs from the coop gives __ farming xp?|||answer<<>>5|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Milking a cow or goat gives __ farming xp?|||answer<<>>5|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Shearing a sheep gives __ farming xp?|||answer<<>>5|||units<<>> farming xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
