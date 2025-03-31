@@ -31,8 +31,10 @@ class quest:
             self.data["wrong"] +=1
             self.data["show"] +=1
             print(f"Incorrect! The answer is {self.data["answer"]}{self.data["units"]}.")
+            self.data["order"]+='x '
         else:
             print("Correct!")
+            self.data["order"]+='√ '
         asked = self.data["asked"]
         wrong = self.data["wrong"]
         self.data["accuracy"] = (asked - wrong)/asked
@@ -59,6 +61,7 @@ Times asked: {self.data["asked"]}
 Times correct: {self.data["asked"]-self.data["wrong"]}
 Times incorrect: {self.data["wrong"]}
 Accuracy: {self.data["accuracy"]}
+History: {self.data["order"]}
 {"="*24}
 '''
         return(statsToShow)
@@ -141,6 +144,7 @@ elif 'question' in mode:
      data["show"]=2
      data["asked"]=0
      data["wrong"]=0
+     data["order"]=''
      stringVersion = (dict_to_str(data,"|||","<<>>"))
      my_data_string += f"\n{stringVersion}###"
      keepGoing = ask("Keep going?")
