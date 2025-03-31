@@ -81,7 +81,17 @@ History: {self.data["order"]}
         return(statsToShow)
 
 user = ask("Username?")
-if 'default' in user:
+questionSet = ''
+possibleSets = [["prices","mines","days","skills"]]
+while not questionSet in ["0","1",'2','3']:
+    questionSet = ask(f"What question set to use?\n{possibleSets}")
+    if questionSet in possibleSets:
+        questionSet = f"{indexInList(questionSet,possibleSets)}"
+    elif questionSet in ["0","1",'2','3']:
+        pass
+    else:
+        print('That question set does not exist! Please choose another!')
+if 'default' == user:
     forReal = ask("So you'll be adding questions then?")
     if forReal in YesList:
         mode = 'question'
