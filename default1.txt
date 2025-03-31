@@ -13,3 +13,5 @@ question<<>>How many magma sprites must you slay for Marlon's phone number?|||an
 question<<>>How many skeletons must you slay for the monster slayer goal?|||answer<<>>50|||units<<>> skeletons|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How many cave insects must you slay for the monster slayer goal?|||answer<<>>80|||units<<>> cave insects|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How many mummies must you slay for the monster slayer goal?|||answer<<>>100|||units<<>> mummies|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>On which floors can dust sprites spawn? (min-max)|||answer<<>>41-79|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Ghosts begin spawning on floor __ and deeper?|||answer<<>>51|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###

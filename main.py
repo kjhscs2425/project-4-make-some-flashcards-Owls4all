@@ -87,7 +87,7 @@ while not questionSet in ["0","1",'2','3']:
     questionSet = ask(f"What question set to use?\n{possibleSets}")
     if questionSet in possibleSets:
         questionSet = f"{indexInList(questionSet,possibleSets)}"
-    elif questionSet in ["0","1",'2','3']:
+    if questionSet in ["0","1",'2','3']:
         pass
     else:
         print('That question set does not exist! Please choose another!')
