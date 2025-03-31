@@ -1,0 +1,20 @@
+question<<>>A large stump gives ___ foraging xp?|||answer<<>>25|||units<<>> foraging xp|||accuracy<<>>0.5|||show<<>>2|||asked<<>>2|||wrong<<>>1|||order<<>>√ x |||###
+question<<>>How much xp in total is required to reach level 10 in a skill?|||answer<<>>15000|||units<<>> xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How much xp does it take to go from level 9 to level 10?|||answer<<>>5000|||units<<>> xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>how much xp does it take to reach level 1 in a skill?|||answer<<>>100|||units<<>> xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How many skills are there?|||answer<<>>5|||units<<>> skills|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How much energy does the fishing pole cost at skill level 0?|||answer<<>>8|||units<<>> energy|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>A diamond node gives __ mining xp?|||answer<<>>150|||units<<>> mining xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>mining a dark gray rock in the mines gives __ xp? (if no coal is dropped)|||answer<<>>3|||units<<>> xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>An iridium node gives __ mining xp?|||answer<<>>50|||units<<>> mining xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How much xp does reading a skill book give?|||answer<<>>250|||units<<>> xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>Harvesting a potato gives __ farming xp?|||answer<<>>14|||units<<>> farming xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>Harvesting a starfruit gives __ farming xp?|||answer<<>>43|||units<<>> farming xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>Getting a perfect catch multiplies the xp gain by __?|||answer<<>>2.4|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>Harvesting a powdermelon gives __ farming xp?|||answer<<>>12|||units<<>> farming xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How much xp does chopping down a tree give? (not including the stump)|||answer<<>>14|||units<<>> xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>How much xp for digging up an artifact spot?|||answer<<>>15|||units<<>> xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>Petting a farm animal gives __ farming xp?|||answer<<>>5|||units<<>> farming xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>picking up eggs from the coop gives __ farming xp?|||answer<<>>5|||units<<>> farming xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>Milking a cow or goat gives __ farming xp?|||answer<<>>5|||units<<>> farming xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
+question<<>>Shearing a sheep gives __ farming xp?|||answer<<>>5|||units<<>> farming xp|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
