@@ -82,7 +82,7 @@ History: {self.data["order"]}
 
 user = ask("Username?")
 questionSet = ''
-possibleSets = [["prices","mines","days","skills"]]
+possibleSets = ["prices","mines","days","skills"]
 while not questionSet in ["0","1",'2','3']:
     questionSet = ask(f"What question set to use?\n{possibleSets}")
     if questionSet in possibleSets:
