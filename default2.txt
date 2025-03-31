@@ -12,3 +12,7 @@ question<<>>On what day can jade be exchanged for staircases at the desert trade
 question<<>>On what day does Krobus sell an iridium sprinkler?|||answer<<>>fri|||units<<>>day|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>On what day is the community center unlocked cutscene first able to be triggered?|||answer<<>>spring 5|||units<<>> year 1|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>On what day are the mines first able to be accessed?|||answer<<>>spring 5|||units<<>> year 1|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A sheep produces wool every __ days?|||answer<<>>3|||units<<>> days|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A goat produces milk every __ days?|||answer<<>>2|||units<<>> days|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Which day is the egg festival?|||answer<<>>spring 13|||units<<>>th|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>On what day is the feast of the winter star?|||answer<<>>winter 25|||units<<>>th|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
