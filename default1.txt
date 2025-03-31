@@ -12,3 +12,4 @@ question<<>>There is a treasure room every ___ floors in skull caverns?|||answer
 question<<>>How many magma sprites must you slay for Marlon's phone number?|||answer<<>>150|||units<<>> magma sprites|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How many skeletons must you slay for the monster slayer goal?|||answer<<>>50|||units<<>> skeletons|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>How many cave insects must you slay for the monster slayer goal?|||answer<<>>80|||units<<>> cave insects|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How many mummies must you slay for the monster slayer goal?|||answer<<>>100|||units<<>> mummies|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
