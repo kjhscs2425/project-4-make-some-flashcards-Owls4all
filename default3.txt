@@ -1,1 +1,4 @@
 question<<>>A large stump gives ___ foraging xp?|||answer<<>>25|||units<<>> foraging xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How much xp in total is required to reach level 10 in a skill?|||answer<<>>15000|||units<<>> xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How much xp does it take to go from level 9 to level 10?|||answer<<>>5000|||units<<>> xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>how much xp does it take to reach level 1 in a skill?|||answer<<>>100|||units<<>> xp|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
