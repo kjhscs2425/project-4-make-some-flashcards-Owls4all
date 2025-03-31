@@ -91,6 +91,7 @@ while not questionSet in ["0","1",'2','3']:
         pass
     else:
         print('That question set does not exist! Please choose another!')
+fileName = f"{user}{questionSet}.txt"
 if 'default' == user:
     forReal = ask("So you'll be adding questions then?")
     if forReal in YesList:
@@ -103,15 +104,12 @@ else:
 if mode == 'normal' or mode == 'normally':
     print("Normal mode selected")
     Tinitial = time.time()
-    if os.path.isfile(f"{user}.txt"):
-        print(f"User file for {user} exists: loading stats")
-        source_file = open(f"{user}.txt","r").read()
+    if os.path.isfile(f"{fileName}"):
+        print(f"User file for {user} exists for chosen question set: loading stats")
+        source_file = open(f"{fileName}","r").read()
     else:
-        print(f"No file found for {user}.")
-        choice = ask("Which default file to open?")
-        if choice == '0' or choice not in ["0","1"]:
-            choice = ''
-        source_file = open(f"default{choice}.txt","r").read()
+        print(f"No file found for {user}. Loading default question set")
+        source_file = open(f"default{questionSet}.txt","r").read()
     for q in source_file.split("###"):
             newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
             if "question" in newQuest.data.keys():
@@ -149,7 +147,7 @@ if mode == 'normal' or mode == 'normally':
         chosenCard = deck.pop()
         questionList[chosenCard].askUser()
     Tfinal = time.time()
-    outputFile = open(f"{user}.txt","w")
+    outputFile = open(f"{fileName}","w")
     my_data_string = ''
     thisRunStats = f'''{'='*24}
 Stats for this run
@@ -186,9 +184,9 @@ elif 'question' in mode:
      keepGoing = ask("Keep going?")
      if keepGoing not in YesList:
         addingQuestions = False
-        if os.path.isfile(f"{user}.txt"):
-            existingQuestions = open(f"{user}.txt","r").read()
+        if os.path.isfile(f"{fileName}"):
+            existingQuestions = open(f"{fileName}","r").read()
         else:
             existingQuestions = ''
-        outputFile = open(f"{user}.txt","w")
+        outputFile = open(f"{fileName}","w")
         outputFile.writelines(existingQuestions+my_data_string)
