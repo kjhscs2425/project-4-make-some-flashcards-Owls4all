@@ -7,7 +7,7 @@ thisRunData = {
     "asked":0,
     "wrong":0,
     "accuracy":0,
-    "order":0
+    "order":''
 }
 class quest:
     def __init__(self,dataDict:dict):
