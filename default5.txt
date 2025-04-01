@@ -32,3 +32,41 @@ question<<>>When is Wizard's birthday?|||answer<<>>winter 17|||units<<>>th|||acc
 question<<>>When is Evelyn's birthday?|||answer<<>>winter 20|||units<<>>th|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>When is Leah's birthday?|||answer<<>>winter 23|||units<<>>rd|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>When is Clint's birthday?|||answer<<>>winter 26|||units<<>>th|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+
+question<<>>Who's birthday is spring 4th?|||answer<<>>kent|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is spring 7th?|||answer<<>>lewis|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is spring 10th?|||answer<<>>vincent|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is spring 14th?|||answer<<>>haley|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is spring 18th?|||answer<<>>pam|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is spring 20th?|||answer<<>>shane|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is spring 26th?|||answer<<>>pierre|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is spring 27th?|||answer<<>>emily|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+
+question<<>>Who's birthday is summer 4th?|||answer<<>>jas|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is summer 8th?|||answer<<>>gus|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is summer 10th?|||answer<<>>maru|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is summer 13th?|||answer<<>>alex|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is summer 17th?|||answer<<>>sam|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is summer 19th?|||answer<<>>demetrius|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is summer 22th?|||answer<<>>dwarf|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is summer 24th?|||answer<<>>willy|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is summer 26th?|||answer<<>>leo|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+
+question<<>>Who's birthday is fall 2nd?|||answer<<>>penny|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is fall 5th?|||answer<<>>elliot|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is fall 11th?|||answer<<>>jodi|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is fall 13th?|||answer<<>>abigail|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is fall 15th?|||answer<<>>sandy|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is fall 18th?|||answer<<>>marnie|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is fall 21st?|||answer<<>>robin|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is fall 24th?|||answer<<>>george|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+
+question<<>>Who's birthday is winter 1st?|||answer<<>>krobus|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is winter 3rd?|||answer<<>>linus|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is winter 7th?|||answer<<>>caroline|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is winter 10th?|||answer<<>>sebastian|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is winter 14th?|||answer<<>>harvey|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is winter 17th?|||answer<<>>wizard|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is winter 20th?|||answer<<>>evelyn|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is winter 23rd?|||answer<<>>leah|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>Who's birthday is winter 26th?|||answer<<>>clint|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
