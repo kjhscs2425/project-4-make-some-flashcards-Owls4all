@@ -3,6 +3,7 @@ import os
 import time
 from utility import *
 questionList = []
+source_file = ''
 thisRunData = {
     "asked":0,
     "wrong":0,
@@ -100,7 +101,6 @@ while not questionSet in ["0","1",'2','3','4']:
             newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
             if "question" in newQuest.data.keys():
                 questionList.append(newQuest)
-        questionSet = ''
         break        
     if questionSet in possibleSets:
         questionSet = f"{indexInList(questionSet,possibleSets)}"
@@ -108,7 +108,10 @@ while not questionSet in ["0","1",'2','3','4']:
         pass
     else:
         print('That question set does not exist! Please choose another!')
-fileName = f"{user}{questionSet}.txt"
+if questionSet != 'all':
+    fileName = f"{user}{questionSet}.txt"
+else:
+    fileName = f"{user}.txt"
 if 'default' == user:
     forReal = ask("So you'll be adding questions then?")
     if forReal in YesList:
@@ -121,12 +124,13 @@ else:
 if mode == 'normal' or mode == 'normally':
     print("Normal mode selected")
     Tinitial = time.time()
-    if os.path.isfile(f"{fileName}"):
+    if os.path.isfile(f"{fileName}") and questionSet != 'all':
         print(f"User file for {user} exists for chosen question set: loading stats")
         source_file = open(f"{fileName}","r").read()
     else:
         print(f"No file found for {user}. Loading default question set")
-        source_file = open(f"default{questionSet}.txt","r").read()
+        if questionSet != 'all':
+            source_file = open(f"default{questionSet}.txt","r").read()
     for q in source_file.split("###"):
             newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
             if "question" in newQuest.data.keys():
