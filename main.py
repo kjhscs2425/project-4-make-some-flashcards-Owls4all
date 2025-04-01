@@ -100,7 +100,8 @@ while not questionSet in ["0","1",'2','3','4']:
             newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
             if "question" in newQuest.data.keys():
                 questionList.append(newQuest)
-            
+        questionSet = ''
+        break        
     if questionSet in possibleSets:
         questionSet = f"{indexInList(questionSet,possibleSets)}"
     if questionSet in ["0","1",'2','3','4']:
