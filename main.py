@@ -82,12 +82,28 @@ History: {self.data["order"]}
 
 user = ask("Username?")
 questionSet = ''
-possibleSets = ["prices","mines","days","skills"]
-while not questionSet in ["0","1",'2','3']:
+possibleSets = ["prices","mines","days","skills","fish"]
+while not questionSet in ["0","1",'2','3','4']:
     questionSet = ask(f"What question set to use?\n{possibleSets}")
+    if questionSet == 'all':
+        if not os.path.isfile(f"{user}.txt"):
+            string = ''
+            for i in range(len(possibleSets)):
+                currentFile = f"{user}{i}.txt"
+                if os.path.isfile(f"{currentFile}"):
+                    string += open(currentFile,"r").read()
+                else:
+                    string += open(f"default{i}.txt",'r').read()
+        else:
+            string = open(f"{user}.txt",'r').read()
+        for q in string.split("###"):
+            newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
+            if "question" in newQuest.data.keys():
+                questionList.append(newQuest)
+            
     if questionSet in possibleSets:
         questionSet = f"{indexInList(questionSet,possibleSets)}"
-    if questionSet in ["0","1",'2','3']:
+    if questionSet in ["0","1",'2','3','4']:
         pass
     else:
         print('That question set does not exist! Please choose another!')
