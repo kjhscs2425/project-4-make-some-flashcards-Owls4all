@@ -83,8 +83,8 @@ History: {self.data["order"]}
 
 user = ask("Username?")
 questionSet = ''
-possibleSets = ["prices","mines","days","skills","fish"]
-while not questionSet in ["0","1",'2','3','4']:
+possibleSets = ["prices","mines","days","skills","fish","birthdays"]
+while not questionSet in ["0","1",'2','3','4','5']:
     questionSet = ask(f"What question set to use?\n{possibleSets}")
     if questionSet == 'all':
         if not os.path.isfile(f"{user}.txt"):
@@ -104,7 +104,7 @@ while not questionSet in ["0","1",'2','3','4']:
         break        
     if questionSet in possibleSets:
         questionSet = f"{indexInList(questionSet,possibleSets)}"
-    if questionSet in ["0","1",'2','3','4']:
+    if questionSet in ["0","1",'2','3','4','5']:
         pass
     else:
         print('That question set does not exist! Please choose another!')
