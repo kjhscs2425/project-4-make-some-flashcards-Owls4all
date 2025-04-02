@@ -196,7 +196,7 @@ Accuracy: {thisRunData["accuracy"]}
 elif 'stats' in mode:
     source_file = f"{user}{questionSet}stats.txt"
     if os.path.isfile(source_file):
-        print(open(source_file.read()))
+        print(open(source_file,'r').read())
     else:
         print(f"{user} has no saved stats for {chosenSet}.")
 elif 'question' in mode:
