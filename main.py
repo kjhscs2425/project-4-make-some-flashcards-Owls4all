@@ -172,7 +172,7 @@ if mode == 'normal' or mode == 'normally':
     outputFile = open(f"{fileName}","w")
     my_data_string = ''
     thisRunStats = f'''{'='*24}
-Stats for this run
+Stats for {user}'s run of {chosenSet}
 {'-'*24}
 Time: {makeNiceTime(Tfinal-Tinitial)}
 Questions asked: {thisRunData["asked"]}
@@ -188,7 +188,10 @@ Accuracy: {thisRunData["accuracy"]}
     print(thisRunStats)
 elif 'stats' in mode:
     source_file = f"{user}{questionSet}stats.txt"
-    print(open(source_file.read()))
+    if os.path.isfile(source_file):
+        print(open(source_file.read()))
+    else:
+        print(f"{user} has no saved stats for {chosenSet}.")
 elif 'question' in mode:
     addingQuestions = True
     my_data_string = ''
