@@ -105,8 +105,9 @@ while not questionSet in ["0","1",'2','3','4','5']:
         break        
     if chosenSet in possibleSets:
         questionSet = f"{indexInList(chosenSet,possibleSets)}"
-    if chosenSet in ["0","1",'2','3','4','5']:
-        pass
+    elif chosenSet in ["0","1",'2','3','4','5']:
+        questionSet = chosenSet
+        chosenSet = indexInList(int(chosenSet),possibleSets)
     else:
         print('That question set does not exist! Please choose another!')
 if chosenSet != 'all':
