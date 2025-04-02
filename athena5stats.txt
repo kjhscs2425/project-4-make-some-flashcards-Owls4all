@@ -1,0 +1,10 @@
+
+========================
+Stats for athena's run of birthdays
+------------------------
+Time: 10.0 minutes and 3 seconds.
+Questions asked: 117
+Correct answers: 109
+Incorrect answers: 8
+Accuracy: 0.9316239316239316
+========================
