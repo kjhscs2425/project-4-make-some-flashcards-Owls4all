@@ -14,7 +14,7 @@ question<<>>When is Sam's birthday?|||answer<<>>summer 17|||units<<>>th|||accura
 question<<>>When is Demetrius's birthday?|||answer<<>>summer 19|||units<<>>th|||accuracy<<>>0.0|||show<<>>4|||asked<<>>2|||wrong<<>>2|||order<<>>x x |||###
 question<<>>When is Dwarf's birthday?|||answer<<>>summer 22|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
 question<<>>When is Willy's birthday?|||answer<<>>summer 24|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
-question<<>>When is Leo's birthday?|||answer<<>>summer 16|||units<<>>th|||accuracy<<>>0.5|||show<<>>3|||asked<<>>2|||wrong<<>>1|||order<<>>x √ |||###
+question<<>>When is Leo's birthday?|||answer<<>>summer 26|||units<<>>th|||accuracy<<>>0.5|||show<<>>3|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||###
 question<<>>When is Penny's birthday?|||answer<<>>fall 2|||units<<>>nd|||accuracy<<>>0.5|||show<<>>3|||asked<<>>2|||wrong<<>>1|||order<<>>x √ |||###
 question<<>>When is Elliot's birthday?|||answer<<>>fall 5|||units<<>>th|||accuracy<<>>0.5|||show<<>>3|||asked<<>>2|||wrong<<>>1|||order<<>>x √ |||###
 question<<>>When is Jodi's birthday?|||answer<<>>fall 11|||units<<>>th|||accuracy<<>>0.0|||show<<>>4|||asked<<>>2|||wrong<<>>2|||order<<>>x x |||###
