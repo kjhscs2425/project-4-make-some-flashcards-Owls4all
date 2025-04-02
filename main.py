@@ -185,6 +185,12 @@ Accuracy: {thisRunData["accuracy"]}
         print(q.showStats())
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
+    statsFile = f"{user}{questionSet}stats.txt"
+    if os.path.isfile(statsFile):
+        previousRuns = open(statsFile,'r').read()
+    else:
+        previousRuns = ''
+    open(statsFile,'w').write(f"{previousRuns}\n{thisRunStats}")
     print(thisRunStats)
 elif 'stats' in mode:
     source_file = f"{user}{questionSet}stats.txt"
