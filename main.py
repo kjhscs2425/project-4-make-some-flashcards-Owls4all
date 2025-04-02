@@ -121,7 +121,7 @@ if 'default' == user:
         mode = 'None'
         print("If you would like to corrupt the question source data, please edit the file directly.")
 else:
-    mode = ask("run normally or add questions?")
+    mode = ask("run normally, view stats, or add questions?")
 if mode == 'normal' or mode == 'normally':
     print("Normal mode selected")
     Tinitial = time.time()
