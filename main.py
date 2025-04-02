@@ -82,11 +82,12 @@ History: {self.data["order"]}
         return(statsToShow)
 
 user = ask("Username?")
+chosenSet = ''
 questionSet = ''
 possibleSets = ["prices","mines","days","skills","fish","birthdays"]
 while not questionSet in ["0","1",'2','3','4','5']:
-    questionSet = ask(f"What question set to use?\n{possibleSets}")
-    if questionSet == 'all':
+    chosenSet = ask(f"What question set to use?\n{possibleSets}")
+    if chosenSet == 'all':
         if not os.path.isfile(f"{user}.txt"):
             string = ''
             for i in range(len(possibleSets)):
@@ -102,13 +103,13 @@ while not questionSet in ["0","1",'2','3','4','5']:
             if "question" in newQuest.data.keys():
                 questionList.append(newQuest)
         break        
-    if questionSet in possibleSets:
-        questionSet = f"{indexInList(questionSet,possibleSets)}"
-    if questionSet in ["0","1",'2','3','4','5']:
+    if chosenSet in possibleSets:
+        questionSet = f"{indexInList(chosenSet,possibleSets)}"
+    if chosenSet in ["0","1",'2','3','4','5']:
         pass
     else:
         print('That question set does not exist! Please choose another!')
-if questionSet != 'all':
+if chosenSet != 'all':
     fileName = f"{user}{questionSet}.txt"
 else:
     fileName = f"{user}.txt"
@@ -185,6 +186,9 @@ Accuracy: {thisRunData["accuracy"]}
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
     print(thisRunStats)
+elif 'stats' in mode:
+    source_file = f"{user}{questionSet}stats.txt"
+    print(open(source_file.read()))
 elif 'question' in mode:
     addingQuestions = True
     my_data_string = ''
