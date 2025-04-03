@@ -77,11 +77,20 @@ class quest:
 {self.data["question"]}
 {self.data["answer"]}{self.data["units"]}
 
-Times asked: {self.data["asked"]}
-Times correct: {self.data["asked"]-self.data["wrong"]}
-Times incorrect: {self.data["wrong"]}
-Accuracy: {self.data["accuracy"]}
-History: {self.data["order"]}
+-----Times asked----- 
+This run: {self.ask}
+Lifetime: {self.data["asked"]}
+-----Times correct-----
+This run: {self.ask-self.wrong}
+Lifetime: {self.data["asked"]-self.data["wrong"]}
+-----Times incorrect-----
+This run: {self.wrong} 
+Lifetime: {self.data["wrong"]}
+-----Accuracy----- 
+This run: {self.accuracy}
+Lifetime: {self.data["accuracy"]}
+-----History----- 
+{self.data["order"]}
 {"="*24}
 '''
         return(statsToShow)
