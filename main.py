@@ -13,6 +13,8 @@ thisRunData = {
 class quest:
     def __init__(self,dataDict:dict):
         self.data = dataDict
+        self.ask = 0
+        self.wrong = 0
         if type(self.data)==dict:
             for key in self.data.keys():
                 if key in ["wrong","asked","show"]:
@@ -34,10 +36,12 @@ class quest:
             return
         response = ask(self.data["question"]).lower()
         self.data["asked"] +=1
+        self.ask +=1
         thisRunData["asked"]+=1
         correctOptions=[self.data["answer"],self.data["answer"]+self.data["units"]]
         if response not in correctOptions:
             self.data["wrong"] +=1
+            self.wrong +=1
             thisRunData["wrong"]+=1
             self.data["show"] +=1
             print(f"Incorrect! The answer is {self.data["answer"]}{self.data["units"]}.")
@@ -52,6 +56,7 @@ class quest:
         wrong = self.data["wrong"]
         thisRunWrong = thisRunData["wrong"]
         self.data["accuracy"] = (asked - wrong)/asked
+        self.accuracy = (self.ask-self.wrong)/self.ask
         thisRunData["accuracy"] = (thisRunAsked-thisRunWrong)/(thisRunAsked)
         if self.data["accuracy"] > 0.75:            
             self.oneLessQuestion()
