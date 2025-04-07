@@ -150,5 +150,17 @@ def checkDiference(a,b):
                 if long[long.index(short[0])+i] != short[i]:
                     diff +=1
         else:
-            print('there occured a cornercase I didn\'t come up with an alogorithm for')
+            if len(short)<2:
+                return 1
+            short = short[1:]
+            return checkDiference(long,short)
         return diff/len(long)
+
+test = False
+while test:
+    str1= ask('first string?')
+    str2 = ask('2nd string?')
+    print(checkDiference(str1,str2))
+    more = ask('try another?')
+    if more not in YesList:
+        test = False
