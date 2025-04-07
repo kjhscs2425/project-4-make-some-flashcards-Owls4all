@@ -10,7 +10,7 @@ thisRunData = {
     "accuracy":0,
     "order":''
 }
-boxes = [100,92,84,76,68]
+boxes = [100,95,90,85,80]
 class quest:
     def __init__(self,dataDict:dict):
         self.data = dataDict
@@ -186,7 +186,8 @@ if mode == 'normal' or mode == 'normally':
     for i in range(x):
         print(f"\nQuestion {i+1}. (out of {x})")
         chosenCard = deck.pop()
-        questionList[chosenCard].askUser()
+        if r.randint(1,100) <= boxes[chosenCard.data['box']]:
+            questionList[chosenCard].askUser()
     Tfinal = time.time()
     outputFile = open(f"{fileName}","w")
     my_data_string = ''
