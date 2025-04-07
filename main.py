@@ -189,6 +189,8 @@ if mode == 'normal' or mode == 'normally':
         chosenCard = deck.pop()
         if r.randint(1,100) <= boxes[questionList[chosenCard].data['box']]:
             questionList[chosenCard].askUser()
+        else:
+            print('Question skipped due to high box')
     Tfinal = time.time()
     outputFile = open(f"{fileName}","w")
     my_data_string = ''
@@ -204,7 +206,7 @@ Accuracy: {thisRunData["accuracy"]}
 '''
     for q in questionList:
         print(q.showStats())
-        if q.wrong == 0 and q.ask != 0:
+        if q.wrong == 0 and q.ask != 0 and q.data['box'] <5:
             q.data['box'] +=1
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
