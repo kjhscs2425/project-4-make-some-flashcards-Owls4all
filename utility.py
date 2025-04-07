@@ -126,3 +126,11 @@ def makeNiceTime(seconds):
             return f"{hours} hours, {minutes} minutes, and {ceil(seconds)} seconds."
     else:
         return f"{minutes} minutes and {ceil(seconds)} seconds."
+
+def checkDiference(a,b):
+    if a == b:
+        return 0
+    if len(a) >= len(b):
+        long = a
+        short = b
+    
