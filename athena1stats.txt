@@ -1,0 +1,10 @@
+
+========================
+Stats for athena's run of mines
+------------------------
+Time: 2.0 minutes and 10 seconds.
+Questions asked: 26
+Correct answers: 25
+Incorrect answers: 1
+Accuracy: 0.9615384615384616
+========================
