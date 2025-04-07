@@ -7,7 +7,7 @@ source_file = ''
 thisRunData = {
     "asked":0,
     "wrong":0,
-    "accuracy":0,
+    "accuracy":'---',
     "order":''
 }
 boxes = [100,95,90,85,80]
@@ -16,6 +16,7 @@ class quest:
         self.data = dataDict
         self.ask = 0
         self.wrong = 0
+        self.accuracy = '---'
         if type(self.data)==dict:
             for key in self.data.keys():
                 if key in ["wrong","asked","show",'box']:
@@ -230,7 +231,7 @@ elif 'question' in mode:
         if key == "units":
             qToAsk += '\n(Add a space if there should be a space between the answer and units)'
         data[key] = ask(qToAsk)
-     data["accuracy"]=0
+     data["accuracy"]='---'
      data["show"]=2
      data["asked"]=0
      data["wrong"]=0
