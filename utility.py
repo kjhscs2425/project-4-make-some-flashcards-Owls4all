@@ -141,9 +141,14 @@ def checkDiference(a,b):
     else:
         if long[0] == short[0]:
             diff = len(long) - len(short)
+            alt = 0
             for i in range(len(short)):
-                if long[i] != short[i]:
+                if long[i+alt] != short[i]:
                     diff += 1
+                if len(long) > i+1+alt:
+                    if long[i+1+alt] == short[i]:
+                        alt +=1
+                        diff -=1
         elif short[0] in long:
             diff = len(long)-len(short)
             for i in range(len(long)-long.index(short[0])):
@@ -151,10 +156,10 @@ def checkDiference(a,b):
                     diff +=1
         else:
             if len(short)<2:
-                return 1
+                return len(long)
             short = short[1:]
-            return checkDiference(long,short)
-        return diff/len(long)
+            diff = checkDiference(long,short)
+        return diff
 
 test = False
 while test:
