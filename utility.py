@@ -133,4 +133,22 @@ def checkDiference(a,b):
     if len(a) >= len(b):
         long = a
         short = b
-    
+    else:
+        long = b
+        short = a
+    if short in long:
+        diff = len(long) - len(short)
+    else:
+        if long[0] == short[0]:
+            diff = len(long) - len(short)
+            for i in range(len(short)):
+                if long[i] != short[i]:
+                    diff += 1
+        elif short[0] in long:
+            diff = len(long)-len(short)
+            for i in range(len(long)-long.index(short[0])):
+                if long[long.index(short[0])+i] != short[i]:
+                    diff +=1
+        else:
+            print('there occured a cornercase I didn\'t come up with an alogorithm for')
+        return diff/len(long)
