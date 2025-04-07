@@ -2,3 +2,9 @@ question<<>>In what season can the dorado be caught?|||answer<<>>summer|||units<
 question<<>>In what season can the salmon be caught?|||answer<<>>fall|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>Sandfish can be caught from 6am - what time?|||answer<<>>8|||units<<>>pm|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
 question<<>>Scorpion carp can be caught from 6am - what time?|||answer<<>>8|||units<<>>pm|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>In what season can squid be caught?|||answer<<>>winter|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>In what season can the Crimsonfish be caught?|||answer<<>>summer|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>In what season can the Legend be caught?|||answer<<>>spring|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>In what season is Glacierfish able to be caught?|||answer<<>>winter|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>In what season can Anglerfish be caught?|||answer<<>>fall|||units<<>>|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>In what location can Mutant Carp be caught?|||answer<<>>sewer|||units<<>>s|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
