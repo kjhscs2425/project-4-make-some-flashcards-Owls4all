@@ -10,6 +10,7 @@ thisRunData = {
     "accuracy":0,
     "order":''
 }
+boxes = [100,92,84,76,68]
 class quest:
     def __init__(self,dataDict:dict):
         self.data = dataDict
@@ -17,10 +18,12 @@ class quest:
         self.wrong = 0
         if type(self.data)==dict:
             for key in self.data.keys():
-                if key in ["wrong","asked","show"]:
+                if key in ["wrong","asked","show",'box']:
                     self.data[key] = int(self.data[key])
                 elif key == 'accuracy':
                     self.data[key] = float(self.data[key])
+            if 'box' not in self.data.keys():
+                self.data["box"] = 0
         else:
             print(f"self.data is a {type(self.data)}")
     def stringify(self):
@@ -40,6 +43,7 @@ class quest:
         thisRunData["asked"]+=1
         correctOptions=[self.data["answer"],self.data["answer"]+self.data["units"]]
         if response not in correctOptions:
+            self.box = 0
             self.data["wrong"] +=1
             self.wrong +=1
             thisRunData["wrong"]+=1
@@ -198,6 +202,8 @@ Accuracy: {thisRunData["accuracy"]}
 '''
     for q in questionList:
         print(q.showStats())
+        if q.wrong == 0 and q.ask != 0:
+            q.data['box'] +=1
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
     statsFile = f"{user}{questionSet}stats.txt"
