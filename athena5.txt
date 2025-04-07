@@ -1,68 +1,68 @@
-question<<>>When is Kent's birthday?|||answer<<>>spring 4|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Lewis's birthday?|||answer<<>>spring 7|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Vincent's birthday?|||answer<<>>spring 10|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Haley's birthday?|||answer<<>>spring 14|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Pam's birthday?|||answer<<>>spring 18|||units<<>>th|||accuracy<<>>0.8666666666666667|||show<<>>1|||asked<<>>15|||wrong<<>>2|||order<<>>x √ x √ √ √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Shane's birthday?|||answer<<>>spring 20|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Pierre's birthday?|||answer<<>>spring 26|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Emily's birthday?|||answer<<>>spring 27|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Jas's birthday?|||answer<<>>summer 4|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Gus's birthday?|||answer<<>>summer 8|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Maru's birthday?|||answer<<>>summer 10|||units<<>>th|||accuracy<<>>0.8888888888888888|||show<<>>1|||asked<<>>9|||wrong<<>>1|||order<<>>√ √ x √ √ √ √ √ √ |||###
-question<<>>When is Alex's birthday?|||answer<<>>summer 13|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Sam's birthday?|||answer<<>>summer 17|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Demetrius's birthday?|||answer<<>>summer 19|||units<<>>th|||accuracy<<>>0.8666666666666667|||show<<>>1|||asked<<>>15|||wrong<<>>2|||order<<>>x x √ √ √ √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Dwarf's birthday?|||answer<<>>summer 22|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Willy's birthday?|||answer<<>>summer 24|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Leo's birthday?|||answer<<>>summer 26|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>15|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Penny's birthday?|||answer<<>>fall 2|||units<<>>nd|||accuracy<<>>0.8333333333333334|||show<<>>1|||asked<<>>12|||wrong<<>>2|||order<<>>x √ √ √ √ √ x √ √ √ √ √ |||###
-question<<>>When is Elliot's birthday?|||answer<<>>fall 5|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Jodi's birthday?|||answer<<>>fall 11|||units<<>>th|||accuracy<<>>0.8666666666666667|||show<<>>1|||asked<<>>15|||wrong<<>>2|||order<<>>x x √ √ √ √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Abigail's birthday?|||answer<<>>fall 13|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Sandy's birthday?|||answer<<>>fall 15|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Marnie's birthday?|||answer<<>>fall 18|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Robin's birthday?|||answer<<>>fall 21|||units<<>>st|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is George's birthday?|||answer<<>>fall 24|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Krobus's birthday?|||answer<<>>winter 1|||units<<>>st|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Linus's birthday?|||answer<<>>winter 3|||units<<>>rd|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Caroline's birthday?|||answer<<>>winter 7|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Sebastian's birthday?|||answer<<>>winter 10|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Harvey's birthday?|||answer<<>>winter 14|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Wizard's birthday?|||answer<<>>winter 17|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>When is Evelyn's birthday?|||answer<<>>winter 20|||units<<>>th|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Leah's birthday?|||answer<<>>winter 23|||units<<>>rd|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>When is Clint's birthday?|||answer<<>>winter 26|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is spring 4th?|||answer<<>>kent|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is spring 7th?|||answer<<>>lewis|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is spring 10th?|||answer<<>>vincent|||units<<>>|||accuracy<<>>0.8888888888888888|||show<<>>1|||asked<<>>9|||wrong<<>>1|||order<<>>√ √ x √ √ √ √ √ √ |||###
-question<<>>Whose birthday is spring 14th?|||answer<<>>haley|||units<<>>|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is spring 18th?|||answer<<>>pam|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is spring 20th?|||answer<<>>shane|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is spring 26th?|||answer<<>>pierre|||units<<>>|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is spring 27th?|||answer<<>>emily|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is summer 4th?|||answer<<>>jas|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is summer 8th?|||answer<<>>gus|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is summer 10th?|||answer<<>>maru|||units<<>>|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is summer 13th?|||answer<<>>alex|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is summer 17th?|||answer<<>>sam|||units<<>>|||accuracy<<>>0.8461538461538461|||show<<>>1|||asked<<>>13|||wrong<<>>2|||order<<>>x √ √ √ √ x √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is summer 19th?|||answer<<>>demetrius|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is summer 22th?|||answer<<>>dwarf|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is summer 24th?|||answer<<>>willy|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is summer 26th?|||answer<<>>leo|||units<<>>|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is fall 2nd?|||answer<<>>penny|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is fall 5th?|||answer<<>>elliot|||units<<>>|||accuracy<<>>0.8888888888888888|||show<<>>1|||asked<<>>9|||wrong<<>>1|||order<<>>√ √ x √ √ √ √ √ √ |||###
-question<<>>Whose birthday is fall 11th?|||answer<<>>jodi|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is fall 13th?|||answer<<>>abigail|||units<<>>|||accuracy<<>>0.9|||show<<>>1|||asked<<>>10|||wrong<<>>1|||order<<>>√ x √ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is fall 15th?|||answer<<>>sandy|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is fall 18th?|||answer<<>>marnie|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is fall 21st?|||answer<<>>robin|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is fall 24th?|||answer<<>>george|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is winter 1st?|||answer<<>>krobus|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is winter 3rd?|||answer<<>>linus|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is winter 7th?|||answer<<>>caroline|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is winter 10th?|||answer<<>>sebastian|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is winter 14th?|||answer<<>>harvey|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is winter 17th?|||answer<<>>wizard|||units<<>>|||accuracy<<>>0.8666666666666667|||show<<>>1|||asked<<>>15|||wrong<<>>2|||order<<>>x √ x √ √ √ √ √ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is winter 20th?|||answer<<>>evelyn|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is winter 23rd?|||answer<<>>leah|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
-question<<>>Whose birthday is winter 26th?|||answer<<>>clint|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>8|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ |||###
+question<<>>When is Kent's birthday?|||answer<<>>spring 4|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Lewis's birthday?|||answer<<>>spring 7|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Vincent's birthday?|||answer<<>>spring 10|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Haley's birthday?|||answer<<>>spring 14|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Pam's birthday?|||answer<<>>spring 18|||units<<>>th|||accuracy<<>>0.875|||show<<>>1|||asked<<>>16|||wrong<<>>2|||order<<>>x √ x √ √ √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Shane's birthday?|||answer<<>>spring 20|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Pierre's birthday?|||answer<<>>spring 26|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Emily's birthday?|||answer<<>>spring 27|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Jas's birthday?|||answer<<>>summer 4|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Gus's birthday?|||answer<<>>summer 8|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Maru's birthday?|||answer<<>>summer 10|||units<<>>th|||accuracy<<>>0.9|||show<<>>1|||asked<<>>10|||wrong<<>>1|||order<<>>√ √ x √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Alex's birthday?|||answer<<>>summer 13|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Sam's birthday?|||answer<<>>summer 17|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Demetrius's birthday?|||answer<<>>summer 19|||units<<>>th|||accuracy<<>>0.875|||show<<>>1|||asked<<>>16|||wrong<<>>2|||order<<>>x x √ √ √ √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Dwarf's birthday?|||answer<<>>summer 22|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Willy's birthday?|||answer<<>>summer 24|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Leo's birthday?|||answer<<>>summer 26|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>16|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Penny's birthday?|||answer<<>>fall 2|||units<<>>nd|||accuracy<<>>0.8461538461538461|||show<<>>1|||asked<<>>13|||wrong<<>>2|||order<<>>x √ √ √ √ √ x √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Elliot's birthday?|||answer<<>>fall 5|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Jodi's birthday?|||answer<<>>fall 11|||units<<>>th|||accuracy<<>>0.875|||show<<>>1|||asked<<>>16|||wrong<<>>2|||order<<>>x x √ √ √ √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Abigail's birthday?|||answer<<>>fall 13|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Sandy's birthday?|||answer<<>>fall 15|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Marnie's birthday?|||answer<<>>fall 18|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Robin's birthday?|||answer<<>>fall 21|||units<<>>st|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is George's birthday?|||answer<<>>fall 24|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Krobus's birthday?|||answer<<>>winter 1|||units<<>>st|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Linus's birthday?|||answer<<>>winter 3|||units<<>>rd|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Caroline's birthday?|||answer<<>>winter 7|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Sebastian's birthday?|||answer<<>>winter 10|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Harvey's birthday?|||answer<<>>winter 14|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Wizard's birthday?|||answer<<>>winter 17|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Evelyn's birthday?|||answer<<>>winter 20|||units<<>>th|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Leah's birthday?|||answer<<>>winter 23|||units<<>>rd|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>When is Clint's birthday?|||answer<<>>winter 26|||units<<>>th|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is spring 4th?|||answer<<>>kent|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is spring 7th?|||answer<<>>lewis|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is spring 10th?|||answer<<>>vincent|||units<<>>|||accuracy<<>>0.9|||show<<>>1|||asked<<>>10|||wrong<<>>1|||order<<>>√ √ x √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is spring 14th?|||answer<<>>haley|||units<<>>|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is spring 18th?|||answer<<>>pam|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is spring 20th?|||answer<<>>shane|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is spring 26th?|||answer<<>>pierre|||units<<>>|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is spring 27th?|||answer<<>>emily|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is summer 4th?|||answer<<>>jas|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is summer 8th?|||answer<<>>gus|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is summer 10th?|||answer<<>>maru|||units<<>>|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is summer 13th?|||answer<<>>alex|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is summer 17th?|||answer<<>>sam|||units<<>>|||accuracy<<>>0.8571428571428571|||show<<>>1|||asked<<>>14|||wrong<<>>2|||order<<>>x √ √ √ √ x √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is summer 19th?|||answer<<>>demetrius|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is summer 22th?|||answer<<>>dwarf|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is summer 24th?|||answer<<>>willy|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is summer 26th?|||answer<<>>leo|||units<<>>|||accuracy<<>>0.9166666666666666|||show<<>>1|||asked<<>>12|||wrong<<>>1|||order<<>>x √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is fall 2nd?|||answer<<>>penny|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is fall 5th?|||answer<<>>elliot|||units<<>>|||accuracy<<>>0.9|||show<<>>1|||asked<<>>10|||wrong<<>>1|||order<<>>√ √ x √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is fall 11th?|||answer<<>>jodi|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is fall 13th?|||answer<<>>abigail|||units<<>>|||accuracy<<>>0.9090909090909091|||show<<>>1|||asked<<>>11|||wrong<<>>1|||order<<>>√ x √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is fall 15th?|||answer<<>>sandy|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is fall 18th?|||answer<<>>marnie|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is fall 21st?|||answer<<>>robin|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is fall 24th?|||answer<<>>george|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is winter 1st?|||answer<<>>krobus|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is winter 3rd?|||answer<<>>linus|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is winter 7th?|||answer<<>>caroline|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is winter 10th?|||answer<<>>sebastian|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is winter 14th?|||answer<<>>harvey|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is winter 17th?|||answer<<>>wizard|||units<<>>|||accuracy<<>>0.875|||show<<>>1|||asked<<>>16|||wrong<<>>2|||order<<>>x √ x √ √ √ √ √ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is winter 20th?|||answer<<>>evelyn|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is winter 23rd?|||answer<<>>leah|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>Whose birthday is winter 26th?|||answer<<>>clint|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>9|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ √ √ |||box<<>>1|||###
