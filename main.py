@@ -186,7 +186,7 @@ if mode == 'normal' or mode == 'normally':
     for i in range(x):
         print(f"\nQuestion {i+1}. (out of {x})")
         chosenCard = deck.pop()
-        if r.randint(1,100) <= boxes[chosenCard.data['box']]:
+        if r.randint(1,100) <= boxes[questionList[chosenCard].data['box']]:
             questionList[chosenCard].askUser()
     Tfinal = time.time()
     outputFile = open(f"{fileName}","w")
