@@ -208,7 +208,7 @@ Accuracy: {thisRunData["accuracy"]}
         print(q.showStats())
         if q.wrong == 0 and q.ask != 0 and q.data['box'] <5:
             q.data['box'] +=1
-            q.data[show] -=1
+            q.data['show'] -=1
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
     statsFile = f"{user}{questionSet}stats.txt"
