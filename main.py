@@ -168,12 +168,14 @@ if mode == 'normal' or mode == 'normally':
                 if type(show) == int:
                     #print(f"{q.data["question"]} added to list")
                     for j in range(show):
-                        cards.append(i)
+                        if r.randint(1,100) <= boxes[q.data['box']]:
+                            cards.append(i)
                 else:
                     if show.isdigit():
                         #print(f"{q.data["question"]} added to list")
                         for j in range(int(show)):
-                            cards.append(i)
+                            if r.randint(1,100) <= boxes[q.data['box']]:
+                                cards.append(i)
                     else:
                         print("Something has gone direly wrong")
     #print(cards) 
@@ -183,10 +185,10 @@ if mode == 'normal' or mode == 'normally':
     for i in range(x):
         print(f"\nQuestion {i+1}. (out of {x})")
         chosenCard = deck.pop()
-        if r.randint(1,100) <= boxes[questionList[chosenCard].data['box']]:
+        """if r.randint(1,100) <= boxes[questionList[chosenCard].data['box']]:
             questionList[chosenCard].askUser()
         else:
-            print('Question skipped due to high box')
+            print('Question skipped due to high box')"""
     Tfinal = time.time()
     outputFile = open(f"{fileName}","w")
     my_data_string = ''
