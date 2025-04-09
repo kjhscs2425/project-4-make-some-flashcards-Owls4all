@@ -82,8 +82,8 @@ class quest:
             return
         for stat in ["question"]:
             if stat not in self.data.keys():
-                #print(f"No {stat} stat!") #former debugging statements
-                #print(dict_to_str(self.data,"|||","<<>>"))
+                #print(f"No {stat} stat!") #former debugging statement
+                #print(dict_to_str(self.data,"|||","<<>>")) #this one too
                 global questionList
                 questionList.__delitem__(indexInList(self,questionList))
                 return ''
