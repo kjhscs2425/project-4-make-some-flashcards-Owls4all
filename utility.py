@@ -127,7 +127,7 @@ def makeNiceTime(seconds):
     else:
         return f"{minutes} minutes and {ceil(seconds)} seconds."
 
-def checkDiference(a,b):
+def checkDiference(a,b): #Do not use - broken & nonfunctional
     if a == b:
         return 0
     if len(a) >= len(b):
