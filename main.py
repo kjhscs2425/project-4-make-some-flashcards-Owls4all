@@ -170,12 +170,16 @@ if mode == 'normal' or mode == 'normally':
                     for j in range(show):
                         if r.randint(1,100) <= boxes[q.data['box']]:
                             cards.append(i)
+                        else:
+                            print(f"{q.data['question']} not shown due to being in box {q.data['box']}")
                 else:
                     if show.isdigit():
                         #print(f"{q.data["question"]} added to list")
                         for j in range(int(show)):
                             if r.randint(1,100) <= boxes[q.data['box']]:
                                 cards.append(i)
+                            else:
+                                print(f"{q.data['question']} not shown due to being in box {q.data['box']}")
                     else:
                         print("Something has gone direly wrong")
     #print(cards) 
