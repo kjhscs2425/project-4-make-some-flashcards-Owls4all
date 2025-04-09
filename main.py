@@ -63,10 +63,6 @@ class quest:
         self.data["accuracy"] = (asked - wrong)/asked
         self.accuracy = (self.ask-self.wrong)/self.ask
         thisRunData["accuracy"] = (thisRunAsked-thisRunWrong)/(thisRunAsked)
-        if self.data["accuracy"] > 0.75:            
-            self.oneLessQuestion()
-        if self.data["accuracy"] > 0.9:
-            self.oneLessQuestion()
     def showStats(self):
         if type(self.data) != dict:
             print(type(self.data))
@@ -208,6 +204,7 @@ Accuracy: {thisRunData["accuracy"]}
         print(q.showStats())
         if q.wrong == 0 and q.ask != 0 and q.data['box'] <5:
             q.data['box'] +=1
+            q.data[show] -=1
         my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
     outputFile.write(my_data_string)
     statsFile = f"{user}{questionSet}stats.txt"
