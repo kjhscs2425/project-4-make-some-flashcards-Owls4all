@@ -1,0 +1,20 @@
+question<<>>It takes ___ g to complete all the vault bundles in the community center?|||answer<<>>47500|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A barn costs ___ g to build?|||answer<<>>6000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A coop costs ___ g to build?|||answer<<>>4000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>It costs ___ g to fully upgrage the farmhouse?|||answer<<>>175000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>It costs a total of ___ wood to build a fully upgraged coop?|||answer<<>>1200|||units<<>> wood|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>It costs a total of ___ wood to build a fully upgraded barn?|||answer<<>>1350|||units<<>> wood|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>It costs a total of ___ stone to build a fully upgraded coop?|||answer<<>>450|||units<<>> stone|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>It costs a total of ___ stone to build a fully upgraded barn?|||answer<<>>650|||units<<>> stone|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A chicken costs ___?|||answer<<>>800|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A cow costs ___ g ?|||answer<<>>1500|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A goat costs ___ g ?|||answer<<>>4000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A duck costs ___ g ?|||answer<<>>1200|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A rabbit costs ___ g ?|||answer<<>>8000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A sheep costs ___ g ?|||answer<<>>8000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>A pig costs ___ g ?|||answer<<>>16000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>It costs ___ iridium bars to fix the boat?|||answer<<>>5|||units<<>> iridium bars|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>It costs ___ hardwood to fix the boat?|||answer<<>>200|||units<<>> hardwood|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>It costs ___ battery packs to fix the boat?|||answer<<>>5|||units<<>> battery packs|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How expensive is "The way of the wind" part 1?|||answer<<>>15000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###
+question<<>>How expensive is "The way of the wind" part 2?|||answer<<>>35000|||units<<>>g|||accuracy<<>>0|||show<<>>2|||asked<<>>0|||wrong<<>>0|||order<<>>|||###

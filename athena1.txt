@@ -1,0 +1,20 @@
+question<<>>How many dust sprites is the monster slayer goal?|||answer<<>>500|||units<<>> dust sprites|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many monsters (and what kind) must you slay for the vampire ring?|||answer<<>>200|||units<<>> bats|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many slimes for the monster slayer goal?|||answer<<>>1000|||units<<>> slimes|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many rock crabs for the monster slayer goal?|||answer<<>>60|||units<<>> rock crabs|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many void spirits for the monster slayer goal?|||answer<<>>150|||units<<>> void spirits|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many pepper rex for the monster slayer goal?|||answer<<>>50|||units<<>> pepper rex|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many duggys for the monster slayer goal?|||answer<<>>30|||units<<>> duggys|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many serpents for the monster slayer goal?|||answer<<>>250|||units<<>> serpents|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many floors are in the mines?|||answer<<>>120|||units<<>> floors|||accuracy<<>>1.0|||show<<>>1|||asked<<>>7|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>How many floors are in the volcano dungeon?|||answer<<>>10|||units<<>> floors|||accuracy<<>>1.0|||show<<>>1|||asked<<>>7|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>There is a treasure room every ___ floors in skull caverns?|||answer<<>>100|||units<<>> floors|||accuracy<<>>1.0|||show<<>>1|||asked<<>>7|||wrong<<>>0|||order<<>>√ √ √ √ √ √ √ |||box<<>>1|||###
+question<<>>How many magma sprites must you slay for Marlon's phone number?|||answer<<>>150|||units<<>> magma sprites|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many skeletons must you slay for the monster slayer goal?|||answer<<>>50|||units<<>> skeletons|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many cave insects must you slay for the monster slayer goal?|||answer<<>>80|||units<<>> cave insects|||accuracy<<>>1.0|||show<<>>1|||asked<<>>3|||wrong<<>>0|||order<<>>√ √ √ |||box<<>>1|||###
+question<<>>How many mummies must you slay for the monster slayer goal?|||answer<<>>100|||units<<>> mummies|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||box<<>>1|||###
+question<<>>On which floors can dust sprites spawn? (min-max)|||answer<<>>41-79|||units<<>>|||accuracy<<>>0.5|||show<<>>2|||asked<<>>2|||wrong<<>>1|||order<<>>√ x |||box<<>>0|||###
+question<<>>Ghosts begin spawning on floor __ and deeper?|||answer<<>>51|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||box<<>>1|||###
+question<<>>On which floors can skeletons spawn? (min-max)|||answer<<>>71-79|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||box<<>>1|||###
+question<<>>On which floors can bats (of any kind) spawn? (min-max)|||answer<<>>31-119|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||box<<>>1|||###
+question<<>>On which floors can squid kids spawn? (min-max)|||answer<<>>91-119|||units<<>>|||accuracy<<>>1.0|||show<<>>1|||asked<<>>2|||wrong<<>>0|||order<<>>√ √ |||box<<>>1|||###
