@@ -80,12 +80,12 @@ class quest:
         if type(self.data) != dict:
             print(type(self.data))
             return
-        for stat in ["question"]:
+        for stat in ["question"]:#if a question has no question stat...
             if stat not in self.data.keys():
                 #print(f"No {stat} stat!") #former debugging statement
                 #print(dict_to_str(self.data,"|||","<<>>")) #this one too
-                global questionList
-                questionList.__delitem__(indexInList(self,questionList))
+                global questionList #access the list
+                questionList.__delitem__(indexInList(self,questionList))#delete it!
                 return ''
         statsToShow = f'''{"="*24}
 {self.data["question"]}
@@ -109,104 +109,102 @@ Lifetime: {self.data["accuracy"]}
 '''
         return(statsToShow)
 
-user = ask("Username?")
-chosenSet = ''
-questionSet = ''
-possibleSets = ["prices","mines","days","skills","fish","birthdays"]
-while not questionSet in ["0","1",'2','3','4','5']:
-    chosenSet = ask(f"What question set to use?\n{possibleSets}")
-    if chosenSet == 'all':
-        if not os.path.isfile(f"{user}.txt"):
-            string = ''
-            for i in range(len(possibleSets)):
-                currentFile = f"{user}{i}.txt"
-                if os.path.isfile(f"{currentFile}"):
-                    string += open(currentFile,"r").read()
-                else:
-                    string += open(f"default{i}.txt",'r').read()
-        else:
-            string = open(f"{user}.txt",'r').read()
-        for q in string.split("###"):
-            newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
-            if "question" in newQuest.data.keys():
-                questionList.append(newQuest)
-        break        
-    if chosenSet in possibleSets:
-        questionSet = f"{indexInList(chosenSet,possibleSets)}"
-    elif chosenSet in ["0","1",'2','3','4','5']:
-        questionSet = chosenSet
-        chosenSet = indexInList(int(chosenSet),possibleSets)
-    else:
-        print('That question set does not exist! Please choose another!')
-if chosenSet != 'all':
-    fileName = f"{user}{questionSet}.txt"
+user = ask("Username?") #which file to save to
+chosenSet = '' #the display name of the set
+questionSet = ''#the numerical index of the set (goes into save filename)
+possibleSets = ["prices","mines","days","skills","fish","birthdays"] #the names (for display purposes)
+while not questionSet in ["0","1",'2','3','4','5']: #when a valid set is chosen, stop asking.
+    chosenSet = ask(f"What question set to use?\n{possibleSets}") #get user input - can take either a name or an index.
+    if chosenSet == 'all': #secret bonus option
+        if not os.path.isfile(f"{user}.txt"): #if there's no file for this mode...
+            string = '' #start with an empty string
+            for i in range(len(possibleSets)): #for every set,
+                currentFile = f"{user}{i}.txt" #
+                if os.path.isfile(f"{currentFile}"): #if the user has a file for it
+                    string += open(currentFile,"r").read()#add it to the string
+                else: #if not,
+                    string += open(f"default{i}.txt",'r').read()#add the default to the string
+        else: #if they do have a file for 'all' mode
+            string = open(f"{user}.txt",'r').read() #read their file for it
+        for q in string.split("###"): #convert the string to a list of question-dictionaries
+            newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>")) #make the questions
+            if "question" in newQuest.data.keys(): #if the new question isn't empty...
+                questionList.append(newQuest) #add it to the list
+        break        #and stop the choosing loop
+    if chosenSet in possibleSets: #if they picked a set by name
+        questionSet = f"{indexInList(chosenSet,possibleSets)}" #set the question to the associated number
+    elif chosenSet in ["0","1",'2','3','4','5']: #otherwise if they chose a valid number
+        questionSet = chosenSet #set the number accordingly
+        chosenSet = indexInList(int(chosenSet),possibleSets) #then set the display name based on the number.
+    else: #if they gave neither a name nor number...
+        print('That question set does not exist! Please choose another!') #tell them to choose again.
+if chosenSet != 'all': #if they didn't choose 'all'
+    fileName = f"{user}{questionSet}.txt" #choose the save file with the appropriate set index
 else:
-    fileName = f"{user}.txt"
-if 'default' == user:
-    forReal = ask("So you'll be adding questions then?")
-    if forReal in YesList:
-        mode = 'question'
-    else:
-        mode = 'None'
+    fileName = f"{user}.txt" #the user's name with no number for 'all' mode
+if 'default' == user: #if they chose 'default' for their name
+    forReal = ask("So you'll be adding questions then?") #it's probably me adding questions.
+    if forReal in YesList: #if so
+        mode = 'question' #set the mode accordingly
+    else: #if not...
+        mode = 'None' #...be annoying about it
         print("If you would like to corrupt the question source data, please edit the file directly.")
-else:
-    mode = ask("run normally, view stats, or add questions?")
-if mode == 'normal' or mode == 'normally':
-    print("Normal mode selected")
-    Tinitial = time.time()
-    if os.path.isfile(f"{fileName}") and questionSet != 'all':
-        print(f"User file for {user} exists for chosen question set: loading stats")
-        source_file = open(f"{fileName}","r").read()
-    else:
+else:#if their name isn't 'default'
+    mode = ask("run normally, view stats, or add questions?")#ask what they want to do
+if 'normal' in mode: #check if they want to run normally
+    print("Normal mode selected") #tell them what was chosen
+    Tinitial = time.time() #note the initial time
+    if os.path.isfile(f"{fileName}") and questionSet != 'all': #if they have a file...
+        print(f"User file for {user} exists for chosen question set: loading stats")#...tell them, then...
+        source_file = open(f"{fileName}","r").read()#...open it
+    else:#otherwise use the default
         print(f"No file found for {user}. Loading default question set")
-        if questionSet != 'all':
-            source_file = open(f"default{questionSet}.txt","r").read()
-    for q in source_file.split("###"):
-            newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>"))
+        if questionSet != 'all': #if the set is 'all' it will already have made the list.
+            source_file = open(f"default{questionSet}.txt","r").read()#since it's not, read the appropriate file.
+    for q in source_file.split("###"): #make it into a list of question-dictionaries
+            newQuest = quest(str_to_dict(q.replace('\n',''),"|||","<<>>")) #turn them into quests
             if "question" in newQuest.data.keys():
-                questionList.append(newQuest)
-    cards = []
-    for i in range(len(questionList)): 
-        q=questionList[i]
-        if type(q.data) != dict:
-            #print("there is a bad question - figure it out")
-            questionList.__delitem__(i)
+                questionList.append(newQuest) #and, if they're not blank, add them to the list.
+    cards = [] #empty list to add to
+    for i in range(len(questionList)): #for each question in the list,
+        q=questionList[i] #q refers to the question, i is its index in the questionList.
+        if type(q.data) != dict: #if q has bad data, it gets deleted. 
+            #print("there is a bad question - figure it out") #former debugging statement
+            questionList.__delitem__(i) #deletes bad question
         else:
-            if "show" not in q.data.keys():
+            if "show" not in q.data.keys(): #because if you reference a nonexistent stat it will crash
                 print("There's a question missing a show stat.")
-                for j in range(2):
-                    cards.append(i)
+                for j in range(2): #assume it's the default and add 2 copies of it.
+                    cards.append(i) #add the questionList index to the cards list
             else:
-                show = q.data["show"]
-                if type(show) == int:
-                    #print(f"{q.data["question"]} added to list")
-                    for j in range(show):
-                        if r.randint(1,100) <= boxes[q.data['box']]:
-                            cards.append(i)
-                        else:
+                show = q.data["show"] #get the actual number
+                if type(show) == int: #if it's an int, 
+                    for j in range(show): #add the question that many times
+                        if r.randint(1,100) <= boxes[q.data['box']]: #roll for 5% per box chance to skip
+                            cards.append(i) #add to the list
+                        else: #if skipped, say so.
                             print(f"{q.data['question']} not shown due to being in box {q.data['box']}")
                 else:
-                    if show.isdigit():
-                        #print(f"{q.data["question"]} added to list")
-                        for j in range(int(show)):
-                            if r.randint(1,100) <= boxes[q.data['box']]:
-                                cards.append(i)
-                            else:
+                    if show.isdigit(): #if it's a string that can be converted to int
+                        for j in range(int(show)): #make it into an int, then add that many instances of the question.
+                            if r.randint(1,100) <= boxes[q.data['box']]:#roll for 5% per box chance to skip
+                                cards.append(i) #add to list
+                            else: #if skipped, say so.
                                 print(f"{q.data['question']} not shown due to being in box {q.data['box']}")
-                    else:
-                        print("Something has gone direly wrong")
-    #print(cards) 
-    deck = shuffle(cards,3)
-    #print(deck)
-    x = len(deck)
-    for i in range(x):
-        print(f"\nQuestion {i+1}. (out of {x})")
-        chosenCard = deck.pop()
-        questionList[chosenCard].askUser()
+                    else: #if it is neither an int nor a string which can be converted to one...
+                        print("Something has gone direly wrong") #...then something has gone direly wrong.
+    #print(cards) #these were to test list-making
+    deck = shuffle(cards,3) #randomize the order of the cards. If it would show the same card twice in a row, re-roll up to 3 times to prevent that.
+    #print(deck)#and to test shuffling
+    x = len(deck) #set for future reference. (the length changes as we take cards out to ask)
+    for i in range(x): #for each card in the deck
+        print(f"\nQuestion {i+1}. (out of {x})") #tell the user their progress so far
+        chosenCard = deck.pop() #take the top card (this removes it from the list)
+        questionList[chosenCard].askUser() #and ask the question
         
-    Tfinal = time.time()
+    Tfinal = time.time() #after that's all done, save the end time. used to calculate how long it took.
     outputFile = open(f"{fileName}","w")
-    my_data_string = ''
+    my_data_string = '' #empty string to add to later.
     thisRunStats = f'''{'='*24}
 Stats for {user}'s run of {chosenSet}
 {'-'*24}
@@ -217,26 +215,26 @@ Incorrect answers: {thisRunData["wrong"]}
 Accuracy: {thisRunData["accuracy"]}
 {'='*24}
 '''
-    for q in questionList:
-        print(q.showStats())
-        if q.wrong == 0 and q.ask != 0 and q.data['box'] <5:
-            q.data['box'] +=1
-            q.data['show'] -=1
-        my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n"
-    outputFile.write(my_data_string)
-    statsFile = f"{user}{questionSet}stats.txt"
-    if os.path.isfile(statsFile):
+    for q in questionList: #for each question in the list
+        print(q.showStats())#print question-specific stats
+        if q.wrong == 0 and q.ask != 0 and q.data['box'] <5: #if it was perfect this run
+            q.data['box'] +=1 #move it to a higher box
+            q.oneLessQuestion() #and show it one less time (min 1)
+        my_data_string += f"{dict_to_str(q.data,"|||","<<>>")}###\n" #make it into a string for saving
+    outputFile.write(my_data_string) #after all of them are added to the string, write it to the file.
+    statsFile = f"{user}{questionSet}stats.txt" 
+    if os.path.isfile(statsFile): #check if there's already a stats file
         previousRuns = open(statsFile,'r').read()
     else:
         previousRuns = ''
-    open(statsFile,'w').write(f"{previousRuns}\n{thisRunStats}")
-    print(thisRunStats)
-elif 'stats' in mode:
-    source_file = f"{user}{questionSet}stats.txt"
-    if os.path.isfile(source_file):
-        print(open(source_file,'r').read())
-    else:
-        print(f"{user} has no saved stats for {chosenSet}.")
+    open(statsFile,'w').write(f"{previousRuns}\n{thisRunStats}") #write lifetime stats history to the file.
+    print(thisRunStats) #print out the current run stats.
+elif 'stats' in mode: #if they want all the stats
+    source_file = f"{user}{questionSet}stats.txt" 
+    if os.path.isfile(source_file): #if there are stats...
+        print(open(source_file,'r').read()) #print all the stats!
+    else: #if not,
+        print(f"{user} has no saved stats for {chosenSet}.") #tell them there are no stats.
 elif 'question' in mode:
     addingQuestions = True
     my_data_string = ''
